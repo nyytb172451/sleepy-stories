@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #f8f4ff;
+  --background-start: #1e1b4b;
+  --background-end: #0f172a;
+}
+
+body {
+  color: var(--foreground);
+  background: linear-gradient(to bottom, var(--background-start), var(--background-end));
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Story text styling */
+.story-text {
+  font-size: 1.25rem;
+  line-height: 1.9;
+  color: #e9e4f5;
+}
+
+.story-text p {
+  margin-bottom: 1.5rem;
+}
+
+/* Night mode optimized - easy on the eyes */
+.story-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.3s ease;
+}
+
+.story-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255,255,255,0.2);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+/* Image placeholders */
+.illustration-placeholder {
+  background: linear-gradient(135deg, #4c1d95 0%, #1e1b4b 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a78bfa;
+  font-size: 0.875rem;
+}
+
+/* Age badges */
+.age-badge {
+  background: linear-gradient(135deg, #7c3aed 0%, #4c1d95 100%);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Reading time */
+.reading-time {
+  color: #a78bfa;
+  font-size: 0.875rem;
+}
+
+/* Stars animation */
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.star {
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+.star:nth-child(2) { animation-delay: 0.5s; }
+.star:nth-child(3) { animation-delay: 1s; }
+.star:nth-child(4) { animation-delay: 1.5s; }
+.star:nth-child(5) { animation-delay: 2s; }
