@@ -14,6 +14,7 @@ export interface Story {
   tags: string[]
   characters: string[]
   keywords: string[] // SEO + search keywords
+  coverImage?: string
   pages: { text: string; illustration?: string }[]
 }
 
@@ -32,14 +33,15 @@ export const stories: Story[] = [
     tags: ['animals', 'lamb', 'blanket', 'searching', 'cozy', 'short'],
     characters: ['Luna'],
     keywords: ['lamb bedtime story', 'blanket story', 'toddler sleep story', 'comfort object story'],
+    coverImage: '/illustrations/luna/luna-01-cover.png',
     pages: [
-      { text: `Luna the little lamb could not sleep.\n\nWhere was her blanket?` },
-      { text: `Luna looked under the bed.\nNo blanket there.\nJust dust bunnies!` },
-      { text: `Luna looked in the toy box.\nNo blanket there.\nJust blocks and balls!` },
-      { text: `Luna looked in the closet.\nNo blanket there.\nJust coats and boots!` },
-      { text: `Luna was sad.\nShe sat down.\nShe wanted her soft, blue blanket.` },
-      { text: `Then she saw something.\nSomething blue.\nSomething soft.\nIt was under her pillow!\n\n"There you are!" said Luna.` },
-      { text: `Luna hugged her blanket tight.\nShe climbed into bed.\nShe closed her eyes.\n\nGoodnight, Luna.\nGoodnight, blanket.` },
+      { text: `Luna the little lamb could not sleep.\n\nWhere was her blanket?`, illustration: '/illustrations/luna/luna-02-worried.png' },
+      { text: `Luna looked under the bed.\nNo blanket there.\nJust dust bunnies!`, illustration: '/illustrations/luna/luna-03-under-bed.png' },
+      { text: `Luna looked in the toy box.\nNo blanket there.\nJust blocks and balls!`, illustration: '/illustrations/luna/luna-04-toybox.png' },
+      { text: `Luna looked in the closet.\nNo blanket there.\nJust coats and boots!`, illustration: '/illustrations/luna/luna-05-closet.png' },
+      { text: `Luna was sad.\nShe sat down.\nShe wanted her soft, blue blanket.`, illustration: '/illustrations/luna/luna-06-sad.png' },
+      { text: `Then she saw something.\nSomething blue.\nSomething soft.\nIt was under her pillow!\n\n"There you are!" said Luna.`, illustration: '/illustrations/luna/luna-07-found.png' },
+      { text: `Luna hugged her blanket tight.\nShe climbed into bed.\nShe closed her eyes.\n\nGoodnight, Luna.\nGoodnight, blanket.`, illustration: '/illustrations/luna/luna-08-goodnight.png' },
     ],
   },
   {

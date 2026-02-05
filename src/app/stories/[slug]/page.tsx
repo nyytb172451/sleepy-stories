@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { stories, getStoryBySlug, Story } from '@/lib/stories'
 
@@ -41,7 +42,20 @@ export default function StoryPage({ params }: { params: { slug: string } }) {
 
       {/* Header */}
       <header className="text-center mb-12">
-        <div className="text-6xl mb-4">{story.emoji}</div>
+        {story.coverImage ? (
+          <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-6">
+            <Image
+              src={story.coverImage}
+              alt={story.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 672px"
+              priority
+            />
+          </div>
+        ) : (
+          <div className="text-6xl mb-4">{story.emoji}</div>
+        )}
         <div className="flex items-center justify-center gap-3 mb-4">
           <span className="age-badge">{story.ageLabel}</span>
           <span className="reading-time">🕐 {story.readingTime}</span>
@@ -82,13 +96,25 @@ export default function StoryPage({ params }: { params: { slug: string } }) {
       <article className="space-y-12">
         {story.pages.map((page, index) => (
           <section key={index} className="story-card rounded-2xl overflow-hidden">
-            {/* Illustration placeholder */}
-            <div className="aspect-[16/10] illustration-placeholder">
-              <div className="text-center">
-                <div className="text-4xl mb-2">🎨</div>
-                <div>Illustration {index + 1}</div>
+            {/* Illustration */}
+            {page.illustration ? (
+              <div className="relative aspect-[16/9]">
+                <Image
+                  src={page.illustration}
+                  alt={`${story.title} - page ${index + 1}`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 672px"
+                />
               </div>
-            </div>
+            ) : (
+              <div className="aspect-[16/10] illustration-placeholder">
+                <div className="text-center">
+                  <div className="text-4xl mb-2">🎨</div>
+                  <div>Illustration {index + 1}</div>
+                </div>
+              </div>
+            )}
             
             {/* Text */}
             <div className="p-6 md:p-8">
