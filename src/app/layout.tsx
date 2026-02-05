@@ -23,11 +23,15 @@ export default function RootLayout({
             <nav className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
               <a href="/" className="text-2xl font-bold text-white flex items-center gap-2">
                 <span className="text-3xl">🌙</span>
-                <span>Sleepy Stories</span>
+                <span className="hidden sm:inline">Sleepy Stories</span>
               </a>
-              <div className="flex gap-6 text-purple-200">
-                <a href="/toddlers" className="hover:text-white transition">Ages 2-4</a>
-                <a href="/early-readers" className="hover:text-white transition">Ages 5-7</a>
+              <div className="flex gap-4 sm:gap-6 text-purple-200 text-sm sm:text-base">
+                <a href="/stories" className="hover:text-white transition">A-Z</a>
+                <a href="/browse" className="hover:text-white transition">Browse</a>
+                <a href="/search" className="hover:text-white transition flex items-center gap-1">
+                  <span>🔍</span>
+                  <span className="hidden sm:inline">Search</span>
+                </a>
               </div>
             </nav>
           </header>
