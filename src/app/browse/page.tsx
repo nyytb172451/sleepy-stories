@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { stories, getAllTags, getAllThemes, getAllCharacters } from '@/lib/stories'
 
 export const metadata = {
-  title: 'Browse Stories — Sleepy Stories',
+  title: 'Browse Stories — Snoozy Stories',
   description: 'Browse bedtime stories by theme, tag, character, or age group.',
 }
 

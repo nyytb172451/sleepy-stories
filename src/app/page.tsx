@@ -73,7 +73,7 @@ export default function Home() {
       <section className="text-center mb-16">
         <div className="text-6xl mb-4">🌙 ✨ 🌟</div>
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          Sleepy Stories
+          Snoozy Stories
         </h1>
         <p className="text-xl text-purple-200 max-w-2xl mx-auto">
           Beautiful bedtime stories to help your little ones drift off to dreamland.

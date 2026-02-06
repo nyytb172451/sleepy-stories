@@ -1,4 +1,4 @@
-# Sleepy Stories 🌙
+# Snoozy Stories 🌙
 
 Free bedtime stories for toddlers and early readers.
 

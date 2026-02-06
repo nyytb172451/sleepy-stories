@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { getStoriesAZ, Story } from '@/lib/stories'
 
 export const metadata = {
-  title: 'All Stories A-Z — Sleepy Stories',
+  title: 'All Stories A-Z — Snoozy Stories',
   description: 'Browse all bedtime stories alphabetically. Find the perfect story for your little one.',
 }
 
