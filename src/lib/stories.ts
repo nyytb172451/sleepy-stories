@@ -915,6 +915,7 @@ THE END` }
     tags: ['stars', 'collecting', 'sharing', 'friendship', 'night sky'],
     characters: ['Thomas', 'Stars'],
     keywords: ['the star collector', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-star-collector/the-star-collector-01-cover.png',
     pages: [
       { text: `Thomas collected things. Rocks. Shells. Bottle caps. Feathers.
 
@@ -922,7 +923,7 @@ But his favorite collection was secret.
 
 Every night, Thomas climbed to his roof with a special jar. And every night, he caught one star.
 
-He had jars and jars of them hidden under his bed. They glowed softly in the dark.` },
+He had jars and jars of them hidden under his bed. They glowed softly in the dark.`, illustration: '/illustrations/the-star-collector/the-star-collector-02-scene.png' },
       { text: `But lately, something was wrong.
 
 The night sky looked emptier. Where there used to be thousands of stars, now there were only hundreds.
@@ -938,7 +939,7 @@ He thought about his jars of glowing stars, all alone under his bed.
 
 "I'm sorry," Thomas whispered.
 
-He opened every jar.` },
+He opened every jar.`, illustration: '/illustrations/the-star-collector/the-star-collector-03-scene.png' },
       { text: `The stars flew up, up, up into the sky. They swirled around Thomas like fireflies, and he could have sworn they were saying thank you.
 
 The sky blazed with light again. Brighter than ever.
