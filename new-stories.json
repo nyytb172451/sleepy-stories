@@ -1,0 +1,306 @@
+{
+  "toddler": [
+    {
+      "slug": "tiny-turtle-takes-a-bath",
+      "title": "Tiny Turtle Takes a Bath",
+      "emoji": "🐢",
+      "description": "Tiny Turtle doesn't want a bath... until the bubbles come!",
+      "themes": ["Bath Time", "Routine", "Fun"],
+      "tags": ["turtle", "bath", "bubbles", "routine", "water"],
+      "characters": ["Tiny Turtle"],
+      "pages": [
+        "Tiny Turtle did not want a bath.\n\n\"No bath!\" said Tiny Turtle.\n\"Too wet! Too cold!\"\n\nBut Mama Turtle smiled.\n\"Wait and see,\" she said.",
+        "Mama turned on the water.\nSplash, splash, splash!\n\nShe added something special.\nBubbles!\n\nBig bubbles.\nSmall bubbles.\nSo many bubbles!",
+        "Tiny Turtle looked.\nTiny Turtle touched.\nPop! Pop! Pop!\n\n\"More bubbles!\" said Tiny Turtle.\n\nHe climbed right in.\nSplish! Splash!",
+        "Tiny Turtle played and played.\nHe made a bubble hat.\nHe made a bubble beard.\nHe was a bubble monster!\n\nSo much fun.\n\n\"All done,\" said Mama.\n\n\"More bath tomorrow?\" asked Tiny Turtle.\n\nYes. More bath tomorrow.\n\nGoodnight, Tiny Turtle."
+      ]
+    },
+    {
+      "slug": "the-sleepy-sloth",
+      "title": "The Sleepy Sloth",
+      "emoji": "🦥",
+      "description": "Sam the Sloth is the slowest... and the sleepiest!",
+      "themes": ["Sleep", "Slowness", "Peace"],
+      "tags": ["sloth", "slow", "peaceful", "jungle", "sleep"],
+      "characters": ["Sam the Sloth"],
+      "pages": [
+        "Sam the Sloth was slow.\n\nSo slow.\n\nThe slowest in the whole jungle.",
+        "The monkeys swung fast.\nThe birds flew fast.\nThe frogs jumped fast.\n\nBut Sam?\n\nSam was slooooow.",
+        "\"Why so slow?\" asked the monkey.\n\nSam smiled.\n\"I'm not slow,\" he said.\n\"I'm... peaceful.\"\n\nSam closed his eyes.\nHe yawned a big yawn.",
+        "\"Being slow is nice,\" said Sam.\n\"I see the pretty flowers.\nI feel the soft breeze.\nI hear the quiet sounds.\"\n\nThe monkey stopped.\nThe monkey listened.\nThe jungle was quiet.\nThe jungle was peaceful.\n\n\"Maybe slow is good,\" said the monkey.\n\nSam was already asleep.\n\nGoodnight, Sam.\nSweet, slow dreams."
+      ]
+    },
+    {
+      "slug": "where-is-bear",
+      "title": "Where Is Bear?",
+      "emoji": "🧸",
+      "description": "Teddy Bear is hiding! Can you find him?",
+      "themes": ["Hide and Seek", "Comfort", "Finding"],
+      "tags": ["teddy bear", "hiding", "searching", "bedtime", "toy"],
+      "characters": ["Teddy Bear", "Child"],
+      "pages": [
+        "Where is Bear?\n\nBear is hiding!\n\nLet's find him.",
+        "Is Bear under the blanket?\nLift it up!\n\nNo Bear.\nJust a pillow.",
+        "Is Bear behind the curtain?\nPeek!\n\nNo Bear.\nJust the window.\n\nIs Bear in the closet?\nOpen it!\n\nNo Bear.\nJust shoes and coats.",
+        "Where could Bear be?\n\nWait...\n\nWhat's that in your arms?\n\nBEAR!\n\nBear was with you the whole time!\n\nSilly Bear.\nSilly you.\n\nTime for bed.\nYou and Bear.\nTogether.\n\nGoodnight."
+      ]
+    },
+    {
+      "slug": "night-night-farm",
+      "title": "Night Night, Farm",
+      "emoji": "🐄",
+      "description": "Say goodnight to all the farm animals as they go to sleep.",
+      "themes": ["Goodnight", "Farm", "Animals"],
+      "tags": ["farm", "animals", "goodnight", "cow", "pig", "chicken"],
+      "characters": ["Cow", "Pig", "Chicken", "Horse", "Sheep"],
+      "pages": [
+        "The sun is going down.\nThe farm is getting quiet.\n\nTime to say goodnight.",
+        "Night night, cow.\nMoo, moo.\nThe cow lies in the soft hay.\n\nNight night, pig.\nOink, oink.\nThe pig curls up in the warm mud.\n\nNight night, chicken.\nCluck, cluck.\nThe chicken fluffs her feathers.",
+        "Night night, horse.\nNeigh, neigh.\nThe horse rests in the big barn.\n\nNight night, sheep.\nBaa, baa.\nThe sheep snuggles with her lamb.",
+        "The moon is up.\nThe stars are out.\nThe farm is asleep.\n\nNight night, farm.\nNight night, animals.\nNight night, you.\n\nSweet dreams."
+      ]
+    },
+    {
+      "slug": "one-more-hug",
+      "title": "One More Hug",
+      "emoji": "🤗",
+      "description": "Baby Bear wants just one more hug before bed.",
+      "themes": ["Hugs", "Love", "Bedtime"],
+      "tags": ["bear", "hugs", "love", "bedtime", "parent"],
+      "characters": ["Baby Bear", "Mama Bear", "Papa Bear"],
+      "pages": [
+        "\"Time for bed,\" said Mama Bear.\n\n\"One more hug?\" asked Baby Bear.\n\nMama Bear gave a big, warm hug.\nSqueeze!",
+        "\"Time for bed,\" said Papa Bear.\n\n\"One more hug?\" asked Baby Bear.\n\nPapa Bear gave a big, soft hug.\nSqueeze!",
+        "Baby Bear climbed into bed.\n\n\"One more hug?\" asked Baby Bear.\n\nMama and Papa Bear both hugged.\nThe biggest hug ever!\nSqueeze, squeeze, squeeze!",
+        "Baby Bear smiled.\nSo many hugs!\nSo much love!\n\n\"Goodnight,\" said Mama.\n\"Goodnight,\" said Papa.\n\"Goodnight,\" said Baby Bear.\n\nNo more hugs.\nJust dreams.\nDreams full of hugs.\n\nGoodnight."
+      ]
+    },
+    {
+      "slug": "rainbow-dreams",
+      "title": "Rainbow Dreams",
+      "emoji": "🌈",
+      "description": "Close your eyes and dream of all the colors of the rainbow.",
+      "themes": ["Colors", "Dreams", "Imagination"],
+      "tags": ["rainbow", "colors", "dreams", "imagination", "sleep"],
+      "characters": ["Child"],
+      "pages": [
+        "Close your eyes.\nTake a deep breath.\n\nLet's dream of colors.",
+        "Dream of RED like apples.\nDream of ORANGE like pumpkins.\nDream of YELLOW like the sun.\n\nSo warm. So bright.",
+        "Dream of GREEN like grass.\nDream of BLUE like the sky.\nDream of PURPLE like grapes.\n\nSo calm. So soft.",
+        "All the colors together.\nA rainbow!\n\nThe rainbow wraps around you.\nLike a blanket.\nWarm and soft.\n\nYou are safe.\nYou are loved.\nYou are dreaming.\n\nGoodnight, little dreamer."
+      ]
+    },
+    {
+      "slug": "whisper-whisper",
+      "title": "Whisper, Whisper",
+      "emoji": "🤫",
+      "description": "At bedtime, everything gets quiet... even the whispers.",
+      "themes": ["Quiet", "Bedtime", "Calm"],
+      "tags": ["quiet", "whisper", "calm", "bedtime", "peaceful"],
+      "characters": ["Child", "Parent"],
+      "pages": [
+        "The day was loud.\nSo much noise!\n\nBut now?\n\nWhisper, whisper.\nEverything is quiet.",
+        "The toys are quiet.\nThe books are quiet.\nEven the clock goes tick... tick... tick...\n\nSo quiet.",
+        "Mama whispers, \"I love you.\"\nPapa whispers, \"Sweet dreams.\"\n\nWhisper, whisper.\nSo soft. So gentle.",
+        "You whisper too.\n\"Goodnight.\"\n\nThe room is quiet.\nYour eyes are heavy.\nYour body is soft.\n\nNo more whispers.\nJust sleep.\n\nShhhhh.\n\nGoodnight."
+      ]
+    },
+    {
+      "slug": "moon-and-me",
+      "title": "Moon and Me",
+      "emoji": "🌙",
+      "description": "The moon watches over you while you sleep.",
+      "themes": ["Moon", "Safety", "Night"],
+      "tags": ["moon", "night", "watching", "safe", "sky"],
+      "characters": ["Child", "Moon"],
+      "pages": [
+        "Look out the window.\nDo you see the moon?\n\nThe moon sees you!",
+        "The moon is big and round.\nThe moon glows soft and white.\nThe moon smiles down at you.\n\n\"Hello, moon!\"",
+        "\"I will watch you,\" says the moon.\n\"All night long.\n\nWhen you sleep,\nI will shine.\n\nWhen you dream,\nI will glow.\n\nYou are safe.\"",
+        "The moon watches.\nYou sleep.\n\nThe moon glows.\nYou dream.\n\nThe moon and you.\nTogether.\nAll night long.\n\nGoodnight, moon.\nGoodnight, you."
+      ]
+    },
+    {
+      "slug": "soft-things",
+      "title": "Soft Things",
+      "emoji": "🧸",
+      "description": "Bedtime is full of soft, cozy things.",
+      "themes": ["Comfort", "Texture", "Cozy"],
+      "tags": ["soft", "cozy", "blanket", "pillow", "comfort"],
+      "characters": ["Child"],
+      "pages": [
+        "Bedtime is soft.\n\nSo many soft things!",
+        "Soft blanket.\nWrap it around you.\n\nSoft pillow.\nRest your head.\n\nSoft teddy.\nHold him tight.",
+        "Soft pajamas.\nSo cozy!\n\nSoft slippers.\nSo warm!\n\nSoft bed.\nSink right in.",
+        "Everything is soft.\nEverything is cozy.\n\nYou are warm.\nYou are safe.\nYou are sleepy.\n\nTime to close your soft eyes.\nTime for soft dreams.\n\nGoodnight, soft one."
+      ]
+    },
+    {
+      "slug": "the-yawn-song",
+      "title": "The Yawn Song",
+      "emoji": "😴",
+      "description": "One yawn leads to another... and another... until everyone is sleepy!",
+      "themes": ["Yawning", "Sleepy", "Contagious"],
+      "tags": ["yawn", "sleepy", "tired", "contagious", "bedtime"],
+      "characters": ["Cat", "Dog", "Bird", "Child"],
+      "pages": [
+        "Cat yawned.\nA big yawn.\nYAWWWWN!\n\nDog saw the yawn.\nDog yawned too.\nYAWWWWN!",
+        "Bird saw the yawns.\nBird yawned.\nYAWWWN!\n\nMouse saw the yawn.\nMouse yawned.\nYawwwn!",
+        "You saw all the yawns.\n\nAre you yawning?\n\nYAWWWWWWN!\n\nYes! You are!",
+        "Yawns are funny.\nYawns spread around.\nYawns mean sleepy time.\n\nCat is sleeping.\nDog is sleeping.\nBird is sleeping.\nMouse is sleeping.\n\nYou?\n\nYAWWWN.\n\nGoodnight, sleepyhead."
+      ]
+    }
+  ],
+  "earlyReader": [
+    {
+      "slug": "the-lighthouse-keepers-daughter",
+      "title": "The Lighthouse Keeper's Daughter",
+      "emoji": "🏠",
+      "description": "Maya helps her father keep the lighthouse shining bright.",
+      "themes": ["Responsibility", "Family", "Bravery"],
+      "tags": ["lighthouse", "ocean", "family", "helping", "brave", "girl"],
+      "characters": ["Maya", "Papa"],
+      "pages": [
+        "Maya lived in a lighthouse with her father.\n\nEvery night, her father climbed the winding stairs to light the great lamp. The light spun round and round, warning ships of the rocky shore.\n\n\"Can I help?\" Maya always asked.\n\n\"When you're older,\" Papa always said.",
+        "One stormy night, Papa fell sick. He could barely lift his head from the pillow.\n\n\"The light,\" he whispered. \"Someone must light the lamp.\"\n\nMaya looked at the winding stairs. They went up, up, up into the darkness.\n\nShe was scared. But the ships needed the light.",
+        "Maya climbed.\n\nStep by step. Round and round. The wind howled outside. The rain beat against the windows.\n\nFinally, she reached the top. The great lamp sat cold and dark.\n\nMaya remembered watching her father. She turned the valve. She struck the match. She touched the flame to the wick.\n\nWHOOSH!\n\nThe light blazed to life!",
+        "All night, Maya stayed with the light. She watched it spin. She watched it shine.\n\nIn the morning, Papa found her asleep beside the lamp.\n\n\"You did it,\" he said softly. \"You kept the light burning.\"\n\nFrom that night on, Maya helped light the lamp.\n\nNot because she had to.\nBecause she was ready.\n\nTHE END"
+      ]
+    },
+    {
+      "slug": "the-night-gardener",
+      "title": "The Night Gardener",
+      "emoji": "🌱",
+      "description": "Old Mr. Moon tends his garden of dreams while everyone sleeps.",
+      "themes": ["Dreams", "Growth", "Magic"],
+      "tags": ["garden", "moon", "dreams", "magic", "growing", "night"],
+      "characters": ["Mr. Moon", "Dreams"],
+      "pages": [
+        "Most people think the moon just hangs in the sky doing nothing.\n\nBut Old Mr. Moon has a very important job. He is a gardener.\n\nNot a gardener of flowers or vegetables. Mr. Moon grows dreams.\n\nHis garden is made of clouds, and in it grow dreams of every kind.",
+        "When children fall asleep, Mr. Moon walks through his garden with his silver watering can.\n\nHe waters the adventure dreams—they grow wild and tall.\nHe trims the silly dreams—they giggle when he clips them.\nHe feeds the cozy dreams—they purr like cats.\n\nEach dream, when it's ready, floats down from the sky and lands softly in a sleeping child's mind.",
+        "One night, a little girl couldn't sleep. She looked out her window and saw something strange.\n\nThe moon was moving. No—the moon was WORKING. She could see tiny lights in a cloudy garden far above.\n\n\"What are you doing?\" she whispered.\n\nMr. Moon looked down and smiled.\n\n\"Growing your dream,\" he said. \"It's almost ready.\"",
+        "The girl watched as Mr. Moon plucked something glowing from his garden. He blew on it gently, and it floated down, down, down...\n\nIt landed on her pillow like a feather made of starlight.\n\nThe girl closed her eyes. And she dreamed the most wonderful dream—of flying through Mr. Moon's magical garden, helping him water the dreams that would visit children all around the world.\n\nSome say she still helps him, every night, in her dreams.\n\nTHE END"
+      ]
+    },
+    {
+      "slug": "the-wish-fish",
+      "title": "The Wish Fish",
+      "emoji": "🐟",
+      "description": "A magical fish grants wishes—but the best wish might surprise you.",
+      "themes": ["Wishes", "Gratitude", "Contentment"],
+      "tags": ["fish", "wishes", "magic", "ocean", "grateful", "lesson"],
+      "characters": ["Finn", "Wish Fish"],
+      "pages": [
+        "Finn loved to fish at the old wooden dock. One evening, he caught something amazing.\n\nThe fish was silver and gold, and it sparkled like a tiny sun.\n\n\"Please let me go,\" said the fish, \"and I will grant you three wishes.\"\n\nFinn's eyes went wide. THREE WISHES!",
+        "\"I wish for a mountain of toys!\" said Finn.\n\nPOOF! Toys appeared everywhere. So many toys he couldn't see his room anymore.\n\nAt first it was fun. Then it was crowded. Then it was lonely. You can't hug a toy mountain.\n\n\"I wish the toys were gone,\" Finn said quietly.\n\nPOOF! They vanished. He had one wish left.",
+        "Finn thought for a long time. What did he really, truly want?\n\nHe walked to the dock. He sat and watched the sunset paint the water orange and pink. His dog came and sat beside him. His father brought him a sandwich.\n\n\"This is nice,\" Finn thought. \"This is really nice.\"",
+        "The Wish Fish appeared in the water.\n\n\"Ready for your last wish?\"\n\nFinn smiled. \"I wish... for more days like this. Quiet ones. With my dog and my dad and sandwiches and sunsets.\"\n\nThe fish's eyes sparkled. \"That is the wisest wish of all. You don't need magic for that wish, Finn. You just need to notice what you already have.\"\n\nThe fish swam away.\n\nAnd Finn? He had exactly what he wished for, every single day.\n\nTHE END"
+      ]
+    },
+    {
+      "slug": "the-blanket-fort-kingdom",
+      "title": "The Blanket Fort Kingdom",
+      "emoji": "🏰",
+      "description": "Every blanket fort holds a secret world—if you know how to look.",
+      "themes": ["Imagination", "Adventure", "Creativity"],
+      "tags": ["blanket fort", "imagination", "adventure", "play", "creative"],
+      "characters": ["Leo", "Queen Cushion"],
+      "pages": [
+        "Leo built the best blanket fort ever.\n\nFour chairs. Two blankets. Six pillows. One flashlight.\n\nHe crawled inside and clicked on the flashlight.\n\nThat's when something magical happened.\n\nThe blankets began to glow. The pillows began to move. And a tiny voice said, \"Welcome to the Kingdom of Soft.\"",
+        "A pillow with button eyes bowed before him.\n\n\"I am Queen Cushion,\" she said. \"We have waited long for a brave builder like you.\"\n\nLeo looked around. His blanket fort had become a castle! The flashlight was now a glowing torch. The floor was made of clouds.\n\n\"Our kingdom is in trouble,\" said the Queen. \"The Dust Bunnies have stolen our coziness. Everything is cold and scratchy. Will you help us?\"",
+        "Leo was scared. But he was also brave.\n\n\"I'll help,\" he said.\n\nThe Queen gave him a sword made of a cardboard tube and armor made of soft fleece.\n\nLeo found the Dust Bunnies hiding under the far corner of the fort. They were gray and grumpy.\n\n\"Why did you steal the coziness?\" Leo asked.\n\n\"Because no one ever invites us in,\" said the biggest Dust Bunny. \"We're always swept away.\"",
+        "Leo had an idea. \"What if you helped MAKE things cozy instead of taking coziness away?\"\n\nThe Dust Bunnies looked at each other. No one had ever asked them to help before.\n\nThey agreed to try. And from then on, Dust Bunnies helped fluff pillows and soften blankets throughout the Kingdom of Soft.\n\nLeo crawled out of his fort, yawning.\n\nIt was just a blanket fort again. Or was it?\n\nHe could have sworn the pillows winked at him as he fell asleep.\n\nTHE END"
+      ]
+    },
+    {
+      "slug": "the-star-collector",
+      "title": "The Star Collector",
+      "emoji": "⭐",
+      "description": "A lonely boy discovers that the best treasures can't be kept.",
+      "themes": ["Sharing", "Loneliness", "Connection"],
+      "tags": ["stars", "collecting", "sharing", "friendship", "night sky"],
+      "characters": ["Thomas", "Stars"],
+      "pages": [
+        "Thomas collected things. Rocks. Shells. Bottle caps. Feathers.\n\nBut his favorite collection was secret.\n\nEvery night, Thomas climbed to his roof with a special jar. And every night, he caught one star.\n\nHe had jars and jars of them hidden under his bed. They glowed softly in the dark.",
+        "But lately, something was wrong.\n\nThe night sky looked emptier. Where there used to be thousands of stars, now there were only hundreds.\n\nAnd Thomas felt strange. The more stars he collected, the lonelier he felt.\n\nOne night, a star spoke to him before he could catch it.\n\n\"Please,\" said the star. \"Let us go. Stars aren't meant to be kept. We're meant to be shared.\"",
+        "Thomas looked at the dark patches in the sky where stars used to be. He thought about all the other children who couldn't see them anymore.\n\nHe thought about his jars of glowing stars, all alone under his bed.\n\n\"I'm sorry,\" Thomas whispered.\n\nHe opened every jar.",
+        "The stars flew up, up, up into the sky. They swirled around Thomas like fireflies, and he could have sworn they were saying thank you.\n\nThe sky blazed with light again. Brighter than ever.\n\nThomas smiled. His jars were empty. But for the first time in a long time, he didn't feel alone.\n\nBecause now, whenever he looked up, the stars winked at him like old friends.\n\nTHE END"
+      ]
+    },
+    {
+      "slug": "the-monster-under-my-bed-is-scared",
+      "title": "The Monster Under My Bed Is Scared",
+      "emoji": "👹",
+      "description": "What if the monster under your bed was more afraid of YOU?",
+      "themes": ["Fear", "Friendship", "Perspective"],
+      "tags": ["monster", "fear", "friendship", "bedtime", "brave", "funny"],
+      "characters": ["Emma", "Gorp"],
+      "pages": [
+        "Emma heard a noise under her bed.\n\nSCRATCH, SCRATCH, SCRATCH.\n\nMost kids would hide under the covers. But Emma was curious. She hung upside down over the edge of her bed and looked underneath.\n\nTwo huge yellow eyes stared back at her.\n\n\"AAAAH!\" screamed the eyes.\n\n\"AAAAH!\" screamed Emma.\n\nThey both scrambled away from each other.",
+        "\"Wait,\" said Emma. \"Did YOU just scream?\"\n\n\"You scared me!\" said a tiny, trembling voice. A fuzzy purple monster crept out from under the bed. He was shaking.\n\n\"I'm Gorp,\" he said. \"I'm supposed to be scary. But honestly? I'm terrified of everything. Especially humans.\"\n\nEmma had never thought about it that way.",
+        "\"What scares you?\" Emma asked.\n\n\"Everything!\" said Gorp. \"The closet is dark. The window is too bright. The ceiling fan sounds like a helicopter. And you humans are HUGE.\"\n\nEmma thought about her own fears. The dark. Strange noises. Being alone.\n\n\"I get scared too,\" she said softly.",
+        "From that night on, Emma and Gorp were friends.\n\nWhen Emma felt scared, Gorp would hold her hand with his fuzzy paw.\nWhen Gorp felt scared, Emma would tell him jokes until he laughed.\n\nThey figured out that fear is much smaller when you share it with someone.\n\nAnd under Emma's bed? It wasn't scary anymore. It was just where her friend Gorp lived.\n\nTHE END"
+      ]
+    },
+    {
+      "slug": "the-dream-library",
+      "title": "The Dream Library",
+      "emoji": "📚",
+      "description": "Every night, a magical library opens where you can borrow dreams.",
+      "themes": ["Books", "Dreams", "Choice"],
+      "tags": ["library", "dreams", "books", "reading", "magic", "choice"],
+      "characters": ["Aria", "Dream Librarian"],
+      "pages": [
+        "Every night, when Aria fell asleep, she found herself in the same place.\n\nA library.\n\nBut not an ordinary library. This one had shelves that reached into the clouds. The books glowed in different colors. And floating candles lit the way.\n\n\"Welcome back,\" said the Dream Librarian. She had silver hair and kind eyes. \"What kind of dream would you like tonight?\"",
+        "Aria walked through the aisles.\n\nAdventure dreams were red and warm to touch.\nFunny dreams were yellow and kept giggling on the shelf.\nFlying dreams were blue and floated slightly off their spots.\nPeaceful dreams were green and hummed softly.\n\n\"How do I choose?\" Aria asked.\n\n\"Listen,\" said the Librarian. \"One book will feel right.\"",
+        "Aria closed her eyes and walked slowly. She felt warmth near the adventure section. She heard giggles from the funny dreams. But then she felt something else.\n\nA small, quiet glow. A book that seemed to be waiting just for her.\n\nIt was purple and silver, and when she touched it, she felt safe.\n\nThe title said: \"Dreams of Home.\"",
+        "That night, Aria dreamed of her grandmother's kitchen. The smell of cookies. The sound of laughter. Warm hugs that lasted forever.\n\nWhen she woke up, she was smiling.\n\nEvery night after, Aria visited the Dream Library. Sometimes she chose adventure. Sometimes she chose flying.\n\nBut whenever she missed someone, she knew exactly which book to find.\n\nTHE END"
+      ]
+    },
+    {
+      "slug": "the-night-bus",
+      "title": "The Night Bus",
+      "emoji": "🚌",
+      "description": "A special bus picks up sleepy children and takes them to dreamland.",
+      "themes": ["Journey", "Sleep", "Wonder"],
+      "tags": ["bus", "journey", "sleep", "travel", "night", "adventure"],
+      "characters": ["Sam", "Bus Driver"],
+      "pages": [
+        "Every night at exactly midnight, a bus drives down Sam's street.\n\nIt's not on any map. It doesn't have a number. It just appears when the clock strikes twelve.\n\nThe bus is silver and glows faintly in the moonlight. The driver tips his hat to anyone still awake.\n\nMost people don't see it. But Sam does.\n\nOne night, Sam decided to get on.",
+        "The bus was warm and soft inside. The seats were like clouds. Other children sat quietly, some already dozing.\n\n\"Where does this bus go?\" Sam asked the driver.\n\n\"To Dreamland,\" said the driver. \"But only if you're tired enough. Are you tired, young traveler?\"\n\nSam yawned. He was VERY tired.",
+        "The bus drove through the night. Out the windows, Sam saw amazing things.\n\nA forest made of pillows.\nA river made of warm milk.\nMountains made of stuffed animals.\n\nEach child got off at a different stop—their own perfect dream.\n\n\"What will my dream be?\" Sam wondered.",
+        "\"Last stop,\" called the driver.\n\nSam looked out the window. He saw his own house. His own room. His own bed, glowing warmly.\n\n\"But I wanted to go somewhere magical!\" said Sam.\n\n\"You already are,\" said the driver. \"The most magical place is the place where you feel safe and loved.\"\n\nSam climbed into bed. And he dreamed of flying, and laughing, and everything wonderful.\n\nAll without leaving home.\n\nTHE END"
+      ]
+    },
+    {
+      "slug": "the-shadow-friend",
+      "title": "The Shadow Friend",
+      "emoji": "🌓",
+      "description": "Your shadow is always with you—even in the dark.",
+      "themes": ["Shadow", "Friendship", "Never Alone"],
+      "tags": ["shadow", "friendship", "dark", "alone", "comfort"],
+      "characters": ["Mia", "Shadow"],
+      "pages": [
+        "Mia didn't like the dark.\n\nWhen the lights went out, she felt alone. So alone.\n\nBut one night, she noticed something. Her shadow, cast by the nightlight, seemed to wave at her.\n\n\"Did you just move?\" Mia whispered.\n\nThe shadow nodded.",
+        "\"I'm always here,\" said the shadow. Its voice was soft, like silk.\n\n\"Even in the dark?\" asked Mia.\n\n\"Especially in the dark,\" said the shadow. \"That's when you need me most. I'm the part of you that's brave when you don't feel brave. I'm the part that stays when everything else seems scary.\"\n\nMia had never thought about her shadow that way.",
+        "\"Can you protect me from monsters?\" Mia asked.\n\nThe shadow smiled. \"There are no monsters. But if there were? I would grow very, very big.\" The shadow stretched across the whole wall, tall and strong.\n\nMia laughed. It felt good to laugh in the dark.",
+        "From then on, Mia wasn't afraid of the dark.\n\nShe knew her shadow was there, stretched out beside her or tucked small beneath her pillow.\n\nSome nights she would whisper, \"Goodnight, shadow.\"\n\nAnd her shadow would wave.\n\nYou are never really alone. Even your shadow loves you.\n\nTHE END"
+      ]
+    },
+    {
+      "slug": "the-sleep-train-engineer",
+      "title": "The Sleep Train Engineer",
+      "emoji": "🚂",
+      "description": "Every night, someone drives the train that carries us to sleep.",
+      "themes": ["Sleep", "Journey", "Routine"],
+      "tags": ["train", "sleep", "engineer", "journey", "bedtime"],
+      "characters": ["Engineer", "You"],
+      "pages": [
+        "Have you ever wondered how sleep finds you?\n\nIt takes a train.\n\nThe Sleep Train runs every single night, and someone has to drive it. That someone is the Sleep Train Engineer.\n\nShe wears striped pajamas and a conductor's hat. Her name is Ms. Lullaby.",
+        "Every evening, Ms. Lullaby checks her route.\n\nFirst stop: Close Your Eyes Station.\nSecond stop: Take Deep Breaths Junction.\nThird stop: Think Happy Thoughts Crossing.\nFinal destination: Dreamland.\n\nShe blows the whistle. TOOT TOOT!\nThe train begins to move.",
+        "The train cars are filled with soft things.\n\nOne car has warm blankets.\nOne car has favorite stuffed animals.\nOne car has quiet music.\nOne car has the smell of cookies.\n\nEverything you need to feel safe and sleepy rides along with you.",
+        "The train chugs along, slower and slower.\n\nYour eyes feel heavy.\nYour breathing gets slow.\nYour thoughts get fuzzy and warm.\n\n\"All aboard for Dreamland,\" Ms. Lullaby whispers.\n\nAnd before you know it, you're there.\n\nSweet dreams, passenger. Same train, same time, tomorrow night.\n\nTHE END"
+      ]
+    }
+  ]
+}
