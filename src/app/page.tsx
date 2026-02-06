@@ -6,9 +6,9 @@ import { useState } from 'react'
 import { stories, Story } from '@/lib/stories'
 
 export default function Home() {
-  // Get 6 stories per age group for the carousels
-  const toddlerStories = stories.filter(s => s.ageGroup === 'toddlers').slice(0, 6)
-  const earlyReaderStories = stories.filter(s => s.ageGroup === 'early-readers').slice(0, 6)
+  // Get 6 stories per age group for the carousels (newest first = reversed order)
+  const toddlerStories = stories.filter(s => s.ageGroup === 'toddlers').reverse().slice(0, 6)
+  const earlyReaderStories = stories.filter(s => s.ageGroup === 'early-readers').reverse().slice(0, 6)
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
