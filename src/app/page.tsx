@@ -1,71 +1,11 @@
 import Link from 'next/link'
-
-const stories = [
-  {
-    slug: 'luna-finds-her-blanket',
-    title: 'Luna Finds Her Blanket',
-    description: 'Luna the lamb can\'t sleep without her favorite blanket. Join her cozy search!',
-    ageGroup: 'toddlers',
-    ageLabel: 'Ages 2-4',
-    readingTime: '2 min',
-    emoji: '🐑',
-    theme: 'Comfort & Security',
-  },
-  {
-    slug: 'bop-the-bunny-says-goodnight',
-    title: 'Bop the Bunny Says Goodnight',
-    description: 'Bop says goodnight to everyone he loves before hopping into bed.',
-    ageGroup: 'toddlers',
-    ageLabel: 'Ages 2-4',
-    readingTime: '2 min',
-    emoji: '🐰',
-    theme: 'Bedtime Routine',
-  },
-  {
-    slug: 'five-little-stars',
-    title: 'Five Little Stars',
-    description: 'Count the friendly stars as they watch over you and sing you to sleep.',
-    ageGroup: 'toddlers',
-    ageLabel: 'Ages 2-4',
-    readingTime: '2 min',
-    emoji: '⭐',
-    theme: 'Counting & Sleep',
-  },
-  {
-    slug: 'pip-and-the-night-train',
-    title: 'Pip and the Night Train',
-    description: 'A brave little mouse rides the magical Dream Train to amazing places.',
-    ageGroup: 'early-readers',
-    ageLabel: 'Ages 5-7',
-    readingTime: '5 min',
-    emoji: '🚂',
-    theme: 'Adventure & Home',
-  },
-  {
-    slug: 'the-girl-who-collected-clouds',
-    title: 'The Girl Who Collected Clouds',
-    description: 'Mira draws clouds in her notebook. One night, a cloud visits her back.',
-    ageGroup: 'early-readers',
-    ageLabel: 'Ages 5-7',
-    readingTime: '5 min',
-    emoji: '☁️',
-    theme: 'Kindness & Sharing',
-  },
-  {
-    slug: 'the-sleepy-dragon',
-    title: 'The Sleepy Dragon',
-    description: 'A dragon who can\'t sleep meets a tiny knight who knows just how to help.',
-    ageGroup: 'early-readers',
-    ageLabel: 'Ages 5-7',
-    readingTime: '5 min',
-    emoji: '🐉',
-    theme: 'Friendship & Comfort',
-  },
-]
+import Image from 'next/image'
+import { stories, Story } from '@/lib/stories'
 
 export default function Home() {
-  const toddlerStories = stories.filter(s => s.ageGroup === 'toddlers')
-  const earlyReaderStories = stories.filter(s => s.ageGroup === 'early-readers')
+  // Get featured stories (first 3 of each age group)
+  const toddlerStories = stories.filter(s => s.ageGroup === 'toddlers').slice(0, 6)
+  const earlyReaderStories = stories.filter(s => s.ageGroup === 'early-readers').slice(0, 6)
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
@@ -95,6 +35,13 @@ export default function Home() {
             <StoryCard key={story.slug} story={story} />
           ))}
         </div>
+        {stories.filter(s => s.ageGroup === 'toddlers').length > 6 && (
+          <div className="text-center mt-6">
+            <Link href="/search?age=toddlers" className="text-purple-300 hover:text-white transition">
+              View all toddler stories →
+            </Link>
+          </div>
+        )}
       </section>
 
       {/* Early Reader Stories */}
@@ -111,6 +58,13 @@ export default function Home() {
             <StoryCard key={story.slug} story={story} />
           ))}
         </div>
+        {stories.filter(s => s.ageGroup === 'early-readers').length > 6 && (
+          <div className="text-center mt-6">
+            <Link href="/search?age=early-readers" className="text-purple-300 hover:text-white transition">
+              View all early reader stories →
+            </Link>
+          </div>
+        )}
       </section>
 
       {/* About */}
@@ -126,14 +80,26 @@ export default function Home() {
   )
 }
 
-function StoryCard({ story }: { story: typeof stories[0] }) {
+function StoryCard({ story }: { story: Story }) {
   return (
     <Link href={`/stories/${story.slug}`}>
       <article className="story-card rounded-2xl overflow-hidden cursor-pointer h-full">
-        {/* Image placeholder */}
-        <div className="aspect-[4/3] illustration-placeholder">
-          <span className="text-6xl">{story.emoji}</span>
-        </div>
+        {/* Thumbnail - use cover image or emoji fallback */}
+        {story.coverImage ? (
+          <div className="relative aspect-[4/3]">
+            <Image
+              src={story.coverImage}
+              alt={story.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
+            />
+          </div>
+        ) : (
+          <div className="aspect-[4/3] illustration-placeholder">
+            <span className="text-6xl">{story.emoji}</span>
+          </div>
+        )}
         
         <div className="p-5">
           <div className="flex items-center justify-between mb-2">
@@ -145,7 +111,7 @@ function StoryCard({ story }: { story: typeof stories[0] }) {
           <p className="text-purple-200 text-sm mb-3">{story.description}</p>
           
           <div className="text-xs text-purple-400">
-            {story.theme}
+            {story.themes.slice(0, 2).join(' • ')}
           </div>
         </div>
       </article>
