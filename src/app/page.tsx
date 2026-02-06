@@ -1,9 +1,12 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
+import { useState } from 'react'
 import { stories, Story } from '@/lib/stories'
 
 export default function Home() {
-  // Get featured stories (first 3 of each age group)
+  // Get 6 stories per age group for the carousels
   const toddlerStories = stories.filter(s => s.ageGroup === 'toddlers').slice(0, 6)
   const earlyReaderStories = stories.filter(s => s.ageGroup === 'early-readers').slice(0, 6)
 
@@ -30,18 +33,12 @@ export default function Home() {
         <p className="text-purple-200 mb-8">
           Short, sweet stories with simple words and lots of repetition. Perfect for toddlers!
         </p>
-        <div className="grid md:grid-cols-3 gap-6">
-          {toddlerStories.map(story => (
-            <StoryCard key={story.slug} story={story} />
-          ))}
+        <StoryCarousel stories={toddlerStories} />
+        <div className="text-center mt-6">
+          <Link href="/search?age=toddlers" className="inline-block bg-purple-600/30 hover:bg-purple-600/50 text-purple-200 hover:text-white px-6 py-2 rounded-full transition">
+            See all toddler stories →
+          </Link>
         </div>
-        {stories.filter(s => s.ageGroup === 'toddlers').length > 6 && (
-          <div className="text-center mt-6">
-            <Link href="/search?age=toddlers" className="text-purple-300 hover:text-white transition">
-              View all toddler stories →
-            </Link>
-          </div>
-        )}
       </section>
 
       {/* Early Reader Stories */}
@@ -53,18 +50,12 @@ export default function Home() {
         <p className="text-purple-200 mb-8">
           Longer adventures with gentle lessons about home, friendship, and kindness.
         </p>
-        <div className="grid md:grid-cols-3 gap-6">
-          {earlyReaderStories.map(story => (
-            <StoryCard key={story.slug} story={story} />
-          ))}
+        <StoryCarousel stories={earlyReaderStories} />
+        <div className="text-center mt-6">
+          <Link href="/search?age=early-readers" className="inline-block bg-purple-600/30 hover:bg-purple-600/50 text-purple-200 hover:text-white px-6 py-2 rounded-full transition">
+            See all early reader stories →
+          </Link>
         </div>
-        {stories.filter(s => s.ageGroup === 'early-readers').length > 6 && (
-          <div className="text-center mt-6">
-            <Link href="/search?age=early-readers" className="text-purple-300 hover:text-white transition">
-              View all early reader stories →
-            </Link>
-          </div>
-        )}
       </section>
 
       {/* About */}
@@ -76,6 +67,65 @@ export default function Home() {
           warmth and safety. Perfect for winding down before sleep.
         </p>
       </section>
+    </div>
+  )
+}
+
+function StoryCarousel({ stories }: { stories: Story[] }) {
+  const [startIndex, setStartIndex] = useState(0)
+  const visibleCount = 3
+  const maxIndex = Math.max(0, stories.length - visibleCount)
+  
+  const visibleStories = stories.slice(startIndex, startIndex + visibleCount)
+  
+  const canGoBack = startIndex > 0
+  const canGoForward = startIndex < maxIndex
+
+  return (
+    <div className="relative">
+      {/* Navigation buttons */}
+      {canGoBack && (
+        <button
+          onClick={() => setStartIndex(Math.max(0, startIndex - 1))}
+          className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-10 h-10 bg-purple-600 hover:bg-purple-500 rounded-full flex items-center justify-center text-white shadow-lg transition"
+          aria-label="Previous stories"
+        >
+          ←
+        </button>
+      )}
+      
+      {canGoForward && (
+        <button
+          onClick={() => setStartIndex(Math.min(maxIndex, startIndex + 1))}
+          className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-10 h-10 bg-purple-600 hover:bg-purple-500 rounded-full flex items-center justify-center text-white shadow-lg transition"
+          aria-label="Next stories"
+        >
+          →
+        </button>
+      )}
+
+      {/* Story cards */}
+      <div className="grid md:grid-cols-3 gap-6">
+        {visibleStories.map(story => (
+          <StoryCard key={story.slug} story={story} />
+        ))}
+      </div>
+
+      {/* Dots indicator */}
+      {stories.length > visibleCount && (
+        <div className="flex justify-center gap-2 mt-6">
+          {Array.from({ length: maxIndex + 1 }).map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setStartIndex(i)}
+              className={`w-2 h-2 rounded-full transition ${
+                i === startIndex ? 'bg-purple-400' : 'bg-white/20 hover:bg-white/40'
+              }`}
+              aria-label={`Go to page ${i + 1}`}
+            />
+          ))}
+        </div>
+      )}
     </div>
   )
 }
