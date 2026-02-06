@@ -755,6 +755,7 @@ THE END` }
     tags: ['garden', 'moon', 'dreams', 'magic', 'growing', 'night'],
     characters: ['Mr. Moon', 'Dreams'],
     keywords: ['the night gardener', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-night-gardener/the-night-gardener-01-cover.png',
     pages: [
       { text: `Most people think the moon just hangs in the sky doing nothing.
 
@@ -769,7 +770,7 @@ He waters the adventure dreams—they grow wild and tall.
 He trims the silly dreams—they giggle when he clips them.
 He feeds the cozy dreams—they purr like cats.
 
-Each dream, when it's ready, floats down from the sky and lands softly in a sleeping child's mind.` },
+Each dream, when it's ready, floats down from the sky and lands softly in a sleeping child's mind.`, illustration: '/illustrations/the-night-gardener/the-night-gardener-02-scene.png' },
       { text: `One night, a little girl couldn't sleep. She looked out her window and saw something strange.
 
 The moon was moving. No—the moon was WORKING. She could see tiny lights in a cloudy garden far above.
@@ -778,7 +779,7 @@ The moon was moving. No—the moon was WORKING. She could see tiny lights in a c
 
 Mr. Moon looked down and smiled.
 
-"Growing your dream," he said. "It's almost ready."` },
+"Growing your dream," he said. "It's almost ready."`, illustration: '/illustrations/the-night-gardener/the-night-gardener-03-scene.png' },
       { text: `The girl watched as Mr. Moon plucked something glowing from his garden. He blew on it gently, and it floated down, down, down...
 
 It landed on her pillow like a feather made of starlight.
