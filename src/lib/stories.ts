@@ -178,7 +178,6 @@ export const stories: Story[] = [
       { text: `From then on, Penny visited Ember every night. She wound the music box. She told Ember she was safe.\n\nAnd the dragon who couldn't sleep became the dragon who dreamed the most wonderful dreams.\n\nTHE END`, illustration: '/illustrations/dragon/dragon-09-ending.png' },
     ],
   },
-},
   {
     slug: 'tiny-turtle-takes-a-bath',
     title: 'Tiny Turtle Takes a Bath',
