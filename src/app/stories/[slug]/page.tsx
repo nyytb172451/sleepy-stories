@@ -12,7 +12,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   if (!story) return {}
   
   return {
-    title: `${story.title} — Sleepy Stories`,
+    title: `${story.title} — Snoozy Stories`,
     description: `${story.description} A ${story.readingTime} bedtime story for ${story.ageLabel}. Themes: ${story.themes.join(', ')}.`,
     keywords: [...story.keywords, ...story.tags, story.title].join(', '),
   }
@@ -96,8 +96,8 @@ export default function StoryPage({ params }: { params: { slug: string } }) {
       <article className="space-y-12">
         {story.pages.map((page, index) => (
           <section key={index} className="story-card rounded-2xl overflow-hidden">
-            {/* Illustration */}
-            {page.illustration ? (
+            {/* Illustration - only show if available */}
+            {page.illustration && (
               <div className="relative aspect-[16/9]">
                 <Image
                   src={page.illustration}
@@ -106,13 +106,6 @@ export default function StoryPage({ params }: { params: { slug: string } }) {
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 672px"
                 />
-              </div>
-            ) : (
-              <div className="aspect-[16/10] illustration-placeholder">
-                <div className="text-center">
-                  <div className="text-4xl mb-2">🎨</div>
-                  <div>Illustration {index + 1}</div>
-                </div>
               </div>
             )}
             
