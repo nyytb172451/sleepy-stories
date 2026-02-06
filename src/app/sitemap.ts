@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { stories } from '@/lib/stories'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://sleepy-stories-tino.vercel.app'
+  const baseUrl = 'https://snoozystories.com'
   
   // Static pages
   const staticPages = [

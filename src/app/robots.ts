@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://sleepy-stories-tino.vercel.app/sitemap.xml',
+    sitemap: 'https://snoozystories.com/sitemap.xml',
   }
 }
