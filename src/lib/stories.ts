@@ -192,6 +192,7 @@ export const stories: Story[] = [
     tags: ['turtle', 'bath', 'bubbles', 'routine', 'water'],
     characters: ['Tiny Turtle'],
     keywords: ['tiny turtle takes a bath', 'toddler bedtime story'],
+    coverImage: '/illustrations/tiny-turtle-takes-a-bath/tiny-turtle-takes-a-bath-01-cover.png',
     pages: [
       { text: `Tiny Turtle did not want a bath.
 
@@ -199,7 +200,7 @@ export const stories: Story[] = [
 "Too wet! Too cold!"
 
 But Mama Turtle smiled.
-"Wait and see," she said.` },
+"Wait and see," she said.`, illustration: '/illustrations/tiny-turtle-takes-a-bath/tiny-turtle-takes-a-bath-02-scene.png' },
       { text: `Mama turned on the water.
 Splash, splash, splash!
 
@@ -216,7 +217,7 @@ Pop! Pop! Pop!
 "More bubbles!" said Tiny Turtle.
 
 He climbed right in.
-Splish! Splash!` },
+Splish! Splash!`, illustration: '/illustrations/tiny-turtle-takes-a-bath/tiny-turtle-takes-a-bath-03-scene.png' },
       { text: `Tiny Turtle played and played.
 He made a bubble hat.
 He made a bubble beard.
@@ -247,6 +248,7 @@ Goodnight, Tiny Turtle.` }
     tags: ['sloth', 'slow', 'peaceful', 'jungle', 'sleep'],
     characters: ['Sam the Sloth'],
     keywords: ['the sleepy sloth', 'toddler bedtime story'],
+    coverImage: '/illustrations/the-sleepy-sloth/the-sleepy-sloth-01-cover.png',
     pages: [
       { text: `Sam the Sloth was slow.
 
@@ -259,7 +261,7 @@ The frogs jumped fast.
 
 But Sam?
 
-Sam was slooooow.` },
+Sam was slooooow.`, illustration: '/illustrations/the-sleepy-sloth/the-sleepy-sloth-02-scene.png' },
       { text: `"Why so slow?" asked the monkey.
 
 Sam smiled.
@@ -267,7 +269,7 @@ Sam smiled.
 "I'm... peaceful."
 
 Sam closed his eyes.
-He yawned a big yawn.` },
+He yawned a big yawn.`, illustration: '/illustrations/the-sleepy-sloth/the-sleepy-sloth-03-scene.png' },
       { text: `"Being slow is nice," said Sam.
 "I see the pretty flowers.
 I feel the soft breeze.
@@ -300,6 +302,7 @@ Sweet, slow dreams.` }
     tags: ['teddy bear', 'hiding', 'searching', 'bedtime', 'toy'],
     characters: ['Teddy Bear', 'Child'],
     keywords: ['where is bear', 'toddler bedtime story'],
+    coverImage: '/illustrations/where-is-bear/where-is-bear-01-cover.png',
     pages: [
       { text: `Where is Bear?
 
@@ -310,7 +313,7 @@ Let's find him.` },
 Lift it up!
 
 No Bear.
-Just a pillow.` },
+Just a pillow.`, illustration: '/illustrations/where-is-bear/where-is-bear-02-scene.png' },
       { text: `Is Bear behind the curtain?
 Peek!
 
@@ -321,7 +324,7 @@ Is Bear in the closet?
 Open it!
 
 No Bear.
-Just shoes and coats.` },
+Just shoes and coats.`, illustration: '/illustrations/where-is-bear/where-is-bear-03-scene.png' },
       { text: `Where could Bear be?
 
 Wait...
@@ -356,6 +359,7 @@ Goodnight.` }
     tags: ['farm', 'animals', 'goodnight', 'cow', 'pig', 'chicken'],
     characters: ['Cow', 'Pig', 'Chicken', 'Horse', 'Sheep'],
     keywords: ['night night farm', 'toddler bedtime story'],
+    coverImage: '/illustrations/night-night-farm/night-night-farm-01-cover.png',
     pages: [
       { text: `The sun is going down.
 The farm is getting quiet.
@@ -371,14 +375,14 @@ The pig curls up in the warm mud.
 
 Night night, chicken.
 Cluck, cluck.
-The chicken fluffs her feathers.` },
+The chicken fluffs her feathers.`, illustration: '/illustrations/night-night-farm/night-night-farm-02-scene.png' },
       { text: `Night night, horse.
 Neigh, neigh.
 The horse rests in the big barn.
 
 Night night, sheep.
 Baa, baa.
-The sheep snuggles with her lamb.` },
+The sheep snuggles with her lamb.`, illustration: '/illustrations/night-night-farm/night-night-farm-03-scene.png' },
       { text: `The moon is up.
 The stars are out.
 The farm is asleep.
@@ -404,19 +408,20 @@ Sweet dreams.` }
     tags: ['bear', 'hugs', 'love', 'bedtime', 'parent'],
     characters: ['Baby Bear', 'Mama Bear', 'Papa Bear'],
     keywords: ['one more hug', 'toddler bedtime story'],
+    coverImage: '/illustrations/one-more-hug/one-more-hug-01-cover.png',
     pages: [
       { text: `"Time for bed," said Mama Bear.
 
 "One more hug?" asked Baby Bear.
 
 Mama Bear gave a big, warm hug.
-Squeeze!` },
+Squeeze!`, illustration: '/illustrations/one-more-hug/one-more-hug-02-scene.png' },
       { text: `"Time for bed," said Papa Bear.
 
 "One more hug?" asked Baby Bear.
 
 Papa Bear gave a big, soft hug.
-Squeeze!` },
+Squeeze!`, illustration: '/illustrations/one-more-hug/one-more-hug-03-scene.png' },
       { text: `Baby Bear climbed into bed.
 
 "One more hug?" asked Baby Bear.
@@ -453,6 +458,7 @@ Goodnight.` }
     tags: ['rainbow', 'colors', 'dreams', 'imagination', 'sleep'],
     characters: ['Child'],
     keywords: ['rainbow dreams', 'toddler bedtime story'],
+    coverImage: '/illustrations/rainbow-dreams/rainbow-dreams-01-cover.png',
     pages: [
       { text: `Close your eyes.
 Take a deep breath.
@@ -462,12 +468,12 @@ Let's dream of colors.` },
 Dream of ORANGE like pumpkins.
 Dream of YELLOW like the sun.
 
-So warm. So bright.` },
+So warm. So bright.`, illustration: '/illustrations/rainbow-dreams/rainbow-dreams-02-scene.png' },
       { text: `Dream of GREEN like grass.
 Dream of BLUE like the sky.
 Dream of PURPLE like grapes.
 
-So calm. So soft.` },
+So calm. So soft.`, illustration: '/illustrations/rainbow-dreams/rainbow-dreams-03-scene.png' },
       { text: `All the colors together.
 A rainbow!
 
@@ -496,6 +502,7 @@ Goodnight, little dreamer.` }
     tags: ['quiet', 'whisper', 'calm', 'bedtime', 'peaceful'],
     characters: ['Child', 'Parent'],
     keywords: ['whisper whisper', 'toddler bedtime story'],
+    coverImage: '/illustrations/whisper-whisper/whisper-whisper-01-cover.png',
     pages: [
       { text: `The day was loud.
 So much noise!
@@ -508,12 +515,12 @@ Everything is quiet.` },
 The books are quiet.
 Even the clock goes tick... tick... tick...
 
-So quiet.` },
+So quiet.`, illustration: '/illustrations/whisper-whisper/whisper-whisper-02-scene.png' },
       { text: `Mama whispers, "I love you."
 Papa whispers, "Sweet dreams."
 
 Whisper, whisper.
-So soft. So gentle.` },
+So soft. So gentle.`, illustration: '/illustrations/whisper-whisper/whisper-whisper-03-scene.png' },
       { text: `You whisper too.
 "Goodnight."
 
@@ -543,11 +550,12 @@ Goodnight.` }
     tags: ['moon', 'night', 'watching', 'safe', 'sky'],
     characters: ['Child', 'Moon'],
     keywords: ['moon and me', 'toddler bedtime story'],
+    coverImage: '/illustrations/moon-and-me/moon-and-me-01-cover.png',
     pages: [
       { text: `Look out the window.
 Do you see the moon?
 
-The moon sees you!` },
+The moon sees you!`, illustration: '/illustrations/moon-and-me/moon-and-me-02-scene.png' },
       { text: `The moon is big and round.
 The moon glows soft and white.
 The moon smiles down at you.
@@ -591,6 +599,7 @@ Goodnight, you.` }
     tags: ['soft', 'cozy', 'blanket', 'pillow', 'comfort'],
     characters: ['Child'],
     keywords: ['soft things', 'toddler bedtime story'],
+    coverImage: '/illustrations/soft-things/soft-things-01-cover.png',
     pages: [
       { text: `Bedtime is soft.
 
@@ -602,7 +611,7 @@ Soft pillow.
 Rest your head.
 
 Soft teddy.
-Hold him tight.` },
+Hold him tight.`, illustration: '/illustrations/soft-things/soft-things-02-scene.png' },
       { text: `Soft pajamas.
 So cozy!
 
@@ -610,7 +619,7 @@ Soft slippers.
 So warm!
 
 Soft bed.
-Sink right in.` },
+Sink right in.`, illustration: '/illustrations/soft-things/soft-things-03-scene.png' },
       { text: `Everything is soft.
 Everything is cozy.
 
