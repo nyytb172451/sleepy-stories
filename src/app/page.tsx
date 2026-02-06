@@ -58,6 +58,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Submit Ideas CTA */}
+      <section className="mb-16 story-card rounded-2xl p-8 text-center">
+        <div className="text-4xl mb-4">💡</div>
+        <h2 className="text-2xl font-bold text-white mb-4">Have a Story Idea?</h2>
+        <p className="text-purple-200 max-w-xl mx-auto mb-6">
+          We'd love to hear your ideas! Every week, we pick our favorite submissions 
+          and turn them into real illustrated bedtime stories. Your name will be 
+          credited on the story page!
+        </p>
+        <Link
+          href="/submit"
+          className="inline-block bg-purple-600 hover:bg-purple-500 text-white font-semibold px-8 py-3 rounded-full transition"
+        >
+          ✨ Submit Your Idea
+        </Link>
+      </section>
+
       {/* About */}
       <section className="text-center py-12 border-t border-white/10">
         <h2 className="text-2xl font-bold text-white mb-4">Sweet Dreams Start Here</h2>

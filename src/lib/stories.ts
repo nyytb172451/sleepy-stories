@@ -15,6 +15,7 @@ export interface Story {
   characters: string[]
   keywords: string[] // SEO + search keywords
   coverImage?: string
+  ideaCredit?: string // First name of person who submitted the idea
   pages: { text: string; illustration?: string }[]
 }
 

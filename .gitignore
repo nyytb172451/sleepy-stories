@@ -33,3 +33,6 @@ next-env.d.ts
 
 # Scripts with API keys
 scripts/
+
+# Submission data
+data/

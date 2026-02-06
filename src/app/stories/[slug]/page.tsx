@@ -64,6 +64,14 @@ export default function StoryPage({ params }: { params: { slug: string } }) {
           {story.title}
         </h1>
         <p className="text-purple-200 mb-4">{story.description}</p>
+
+        {/* Idea Credit */}
+        {story.ideaCredit && (
+          <p className="text-purple-300 text-sm mb-4 flex items-center justify-center gap-2">
+            <span>💡</span>
+            <span>Story idea by <strong className="text-purple-200">{story.ideaCredit}</strong></span>
+          </p>
+        )}
         
         {/* Themes */}
         <div className="flex flex-wrap justify-center gap-2 mb-4">
