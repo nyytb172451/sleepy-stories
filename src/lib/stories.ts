@@ -805,6 +805,7 @@ THE END` }
     tags: ['fish', 'wishes', 'magic', 'ocean', 'grateful', 'lesson'],
     characters: ['Finn', 'Wish Fish'],
     keywords: ['the wish fish', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-wish-fish/the-wish-fish-01-cover.png',
     pages: [
       { text: `Finn loved to fish at the old wooden dock. One evening, he caught something amazing.
 
@@ -812,7 +813,7 @@ The fish was silver and gold, and it sparkled like a tiny sun.
 
 "Please let me go," said the fish, "and I will grant you three wishes."
 
-Finn's eyes went wide. THREE WISHES!` },
+Finn's eyes went wide. THREE WISHES!`, illustration: '/illustrations/the-wish-fish/the-wish-fish-02-scene.png' },
       { text: `"I wish for a mountain of toys!" said Finn.
 
 POOF! Toys appeared everywhere. So many toys he couldn't see his room anymore.
@@ -826,7 +827,7 @@ POOF! They vanished. He had one wish left.` },
 
 He walked to the dock. He sat and watched the sunset paint the water orange and pink. His dog came and sat beside him. His father brought him a sandwich.
 
-"This is nice," Finn thought. "This is really nice."` },
+"This is nice," Finn thought. "This is really nice."`, illustration: '/illustrations/the-wish-fish/the-wish-fish-03-scene.png' },
       { text: `The Wish Fish appeared in the water.
 
 "Ready for your last wish?"
@@ -856,6 +857,7 @@ THE END` }
     tags: ['blanket fort', 'imagination', 'adventure', 'play', 'creative'],
     characters: ['Leo', 'Queen Cushion'],
     keywords: ['the blanket fort kingdom', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-blanket-fort-kingdom/the-blanket-fort-kingdom-01-cover.png',
     pages: [
       { text: `Leo built the best blanket fort ever.
 
@@ -865,7 +867,7 @@ He crawled inside and clicked on the flashlight.
 
 That's when something magical happened.
 
-The blankets began to glow. The pillows began to move. And a tiny voice said, "Welcome to the Kingdom of Soft."` },
+The blankets began to glow. The pillows began to move. And a tiny voice said, "Welcome to the Kingdom of Soft."`, illustration: '/illustrations/the-blanket-fort-kingdom/the-blanket-fort-kingdom-02-scene.png' },
       { text: `A pillow with button eyes bowed before him.
 
 "I am Queen Cushion," she said. "We have waited long for a brave builder like you."
@@ -883,7 +885,7 @@ Leo found the Dust Bunnies hiding under the far corner of the fort. They were gr
 
 "Why did you steal the coziness?" Leo asked.
 
-"Because no one ever invites us in," said the biggest Dust Bunny. "We're always swept away."` },
+"Because no one ever invites us in," said the biggest Dust Bunny. "We're always swept away."`, illustration: '/illustrations/the-blanket-fort-kingdom/the-blanket-fort-kingdom-03-scene.png' },
       { text: `Leo had an idea. "What if you helped MAKE things cozy instead of taking coziness away?"
 
 The Dust Bunnies looked at each other. No one had ever asked them to help before.
