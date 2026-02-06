@@ -678,7 +678,7 @@ Goodnight, sleepyhead.` }
   },
   {
     slug: 'the-lighthouse-keepers-daughter',
-    title: 'The Lighthouse Keeper's Daughter',
+    title: "The Lighthouse Keeper's Daughter",
     description: 'Maya helps her father keep the lighthouse shining bright.',
     ageGroup: 'early-readers',
     ageLabel: 'Ages 5-7',
