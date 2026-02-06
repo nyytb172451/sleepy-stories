@@ -965,6 +965,7 @@ THE END` }
     tags: ['monster', 'fear', 'friendship', 'bedtime', 'brave', 'funny'],
     characters: ['Emma', 'Gorp'],
     keywords: ['the monster under my bed is scared', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-monster-under-my-bed-is-scared/the-monster-under-my-bed-is-scared-01-cover.png',
     pages: [
       { text: `Emma heard a noise under her bed.
 
@@ -978,7 +979,7 @@ Two huge yellow eyes stared back at her.
 
 "AAAAH!" screamed Emma.
 
-They both scrambled away from each other.` },
+They both scrambled away from each other.`, illustration: '/illustrations/the-monster-under-my-bed-is-scared/the-monster-under-my-bed-is-scared-02-scene.png' },
       { text: `"Wait," said Emma. "Did YOU just scream?"
 
 "You scared me!" said a tiny, trembling voice. A fuzzy purple monster crept out from under the bed. He was shaking.
@@ -992,7 +993,7 @@ Emma had never thought about it that way.` },
 
 Emma thought about her own fears. The dark. Strange noises. Being alone.
 
-"I get scared too," she said softly.` },
+"I get scared too," she said softly.`, illustration: '/illustrations/the-monster-under-my-bed-is-scared/the-monster-under-my-bed-is-scared-03-scene.png' },
       { text: `From that night on, Emma and Gorp were friends.
 
 When Emma felt scared, Gorp would hold her hand with his fuzzy paw.
@@ -1019,6 +1020,7 @@ THE END` }
     tags: ['library', 'dreams', 'books', 'reading', 'magic', 'choice'],
     characters: ['Aria', 'Dream Librarian'],
     keywords: ['the dream library', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-dream-library/the-dream-library-01-cover.png',
     pages: [
       { text: `Every night, when Aria fell asleep, she found herself in the same place.
 
@@ -1036,14 +1038,14 @@ Peaceful dreams were green and hummed softly.
 
 "How do I choose?" Aria asked.
 
-"Listen," said the Librarian. "One book will feel right."` },
+"Listen," said the Librarian. "One book will feel right."`, illustration: '/illustrations/the-dream-library/the-dream-library-02-scene.png' },
       { text: `Aria closed her eyes and walked slowly. She felt warmth near the adventure section. She heard giggles from the funny dreams. But then she felt something else.
 
 A small, quiet glow. A book that seemed to be waiting just for her.
 
 It was purple and silver, and when she touched it, she felt safe.
 
-The title said: "Dreams of Home."` },
+The title said: "Dreams of Home."`, illustration: '/illustrations/the-dream-library/the-dream-library-03-scene.png' },
       { text: `That night, Aria dreamed of her grandmother's kitchen. The smell of cookies. The sound of laughter. Warm hugs that lasted forever.
 
 When she woke up, she was smiling.
@@ -1069,6 +1071,7 @@ THE END` }
     tags: ['bus', 'journey', 'sleep', 'travel', 'night', 'adventure'],
     characters: ['Sam', 'Bus Driver'],
     keywords: ['the night bus', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-night-bus/the-night-bus-01-cover.png',
     pages: [
       { text: `Every night at exactly midnight, a bus drives down Sam's street.
 
@@ -1085,7 +1088,7 @@ One night, Sam decided to get on.` },
 
 "To Dreamland," said the driver. "But only if you're tired enough. Are you tired, young traveler?"
 
-Sam yawned. He was VERY tired.` },
+Sam yawned. He was VERY tired.`, illustration: '/illustrations/the-night-bus/the-night-bus-02-scene.png' },
       { text: `The bus drove through the night. Out the windows, Sam saw amazing things.
 
 A forest made of pillows.
@@ -1094,7 +1097,7 @@ Mountains made of stuffed animals.
 
 Each child got off at a different stop—their own perfect dream.
 
-"What will my dream be?" Sam wondered.` },
+"What will my dream be?" Sam wondered.`, illustration: '/illustrations/the-night-bus/the-night-bus-03-scene.png' },
       { text: `"Last stop," called the driver.
 
 Sam looked out the window. He saw his own house. His own room. His own bed, glowing warmly.
@@ -1124,6 +1127,7 @@ THE END` }
     tags: ['shadow', 'friendship', 'dark', 'alone', 'comfort'],
     characters: ['Mia', 'Shadow'],
     keywords: ['the shadow friend', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-shadow-friend/the-shadow-friend-01-cover.png',
     pages: [
       { text: `Mia didn't like the dark.
 
@@ -1140,12 +1144,12 @@ The shadow nodded.` },
 
 "Especially in the dark," said the shadow. "That's when you need me most. I'm the part of you that's brave when you don't feel brave. I'm the part that stays when everything else seems scary."
 
-Mia had never thought about her shadow that way.` },
+Mia had never thought about her shadow that way.`, illustration: '/illustrations/the-shadow-friend/the-shadow-friend-02-scene.png' },
       { text: `"Can you protect me from monsters?" Mia asked.
 
 The shadow smiled. "There are no monsters. But if there were? I would grow very, very big." The shadow stretched across the whole wall, tall and strong.
 
-Mia laughed. It felt good to laugh in the dark.` },
+Mia laughed. It felt good to laugh in the dark.`, illustration: '/illustrations/the-shadow-friend/the-shadow-friend-03-scene.png' },
       { text: `From then on, Mia wasn't afraid of the dark.
 
 She knew her shadow was there, stretched out beside her or tucked small beneath her pillow.
@@ -1173,6 +1177,7 @@ THE END` }
     tags: ['train', 'sleep', 'engineer', 'journey', 'bedtime'],
     characters: ['Engineer', 'You'],
     keywords: ['the sleep train engineer', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-sleep-train-engineer/the-sleep-train-engineer-01-cover.png',
     pages: [
       { text: `Have you ever wondered how sleep finds you?
 
@@ -1189,7 +1194,7 @@ Third stop: Think Happy Thoughts Crossing.
 Final destination: Dreamland.
 
 She blows the whistle. TOOT TOOT!
-The train begins to move.` },
+The train begins to move.`, illustration: '/illustrations/the-sleep-train-engineer/the-sleep-train-engineer-02-scene.png' },
       { text: `The train cars are filled with soft things.
 
 One car has warm blankets.
@@ -1197,7 +1202,7 @@ One car has favorite stuffed animals.
 One car has quiet music.
 One car has the smell of cookies.
 
-Everything you need to feel safe and sleepy rides along with you.` },
+Everything you need to feel safe and sleepy rides along with you.`, illustration: '/illustrations/the-sleep-train-engineer/the-sleep-train-engineer-03-scene.png' },
       { text: `The train chugs along, slower and slower.
 
 Your eyes feel heavy.
