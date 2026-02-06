@@ -647,6 +647,7 @@ Goodnight, soft one.` }
     tags: ['yawn', 'sleepy', 'tired', 'contagious', 'bedtime'],
     characters: ['Cat', 'Dog', 'Bird', 'Child'],
     keywords: ['the yawn song', 'toddler bedtime story'],
+    coverImage: '/illustrations/the-yawn-song/the-yawn-song-01-cover.png',
     pages: [
       { text: `Cat yawned.
 A big yawn.
@@ -654,7 +655,7 @@ YAWWWWN!
 
 Dog saw the yawn.
 Dog yawned too.
-YAWWWWN!` },
+YAWWWWN!`, illustration: '/illustrations/the-yawn-song/the-yawn-song-02-scene.png' },
       { text: `Bird saw the yawns.
 Bird yawned.
 YAWWWN!
@@ -668,7 +669,7 @@ Are you yawning?
 
 YAWWWWWWN!
 
-Yes! You are!` },
+Yes! You are!`, illustration: '/illustrations/the-yawn-song/the-yawn-song-03-scene.png' },
       { text: `Yawns are funny.
 Yawns spread around.
 Yawns mean sleepy time.
@@ -699,6 +700,7 @@ Goodnight, sleepyhead.` }
     tags: ['lighthouse', 'ocean', 'family', 'helping', 'brave', 'girl'],
     characters: ['Maya', 'Papa'],
     keywords: ['the lighthouse keepers daughter', 'earlyReader bedtime story'],
+    coverImage: '/illustrations/the-lighthouse-keepers-daughter/the-lighthouse-keepers-daughter-01-cover.png',
     pages: [
       { text: `Maya lived in a lighthouse with her father.
 
@@ -713,7 +715,7 @@ Every night, her father climbed the winding stairs to light the great lamp. The 
 
 Maya looked at the winding stairs. They went up, up, up into the darkness.
 
-She was scared. But the ships needed the light.` },
+She was scared. But the ships needed the light.`, illustration: '/illustrations/the-lighthouse-keepers-daughter/the-lighthouse-keepers-daughter-02-scene.png' },
       { text: `Maya climbed.
 
 Step by step. Round and round. The wind howled outside. The rain beat against the windows.
@@ -724,7 +726,7 @@ Maya remembered watching her father. She turned the valve. She struck the match.
 
 WHOOSH!
 
-The light blazed to life!` },
+The light blazed to life!`, illustration: '/illustrations/the-lighthouse-keepers-daughter/the-lighthouse-keepers-daughter-03-scene.png' },
       { text: `All night, Maya stayed with the light. She watched it spin. She watched it shine.
 
 In the morning, Papa found her asleep beside the lamp.
