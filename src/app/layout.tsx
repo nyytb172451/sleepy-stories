@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Snoozy Stories — Free Bedtime Stories for Kids',
   description: 'Beautiful illustrated bedtime stories for toddlers and early readers. Free, calming stories to help your little ones drift off to sleep.',
   keywords: 'bedtime stories, kids stories, toddler stories, free bedtime stories, illustrated stories, sleep stories',
+  verification: {
+    google: '2FesD6q_Q979KI-Lz8jpNRyeySDCrEfXdK7tMYIH0O4',
+  },
   other: {
     'google-adsense-account': 'ca-pub-9732794876616434',
   },
