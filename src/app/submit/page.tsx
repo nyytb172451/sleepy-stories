@@ -85,9 +85,10 @@ export default function SubmitPage() {
         <div className="text-5xl mb-4">💡</div>
         <h1 className="text-3xl font-bold text-white mb-4">Submit a Story Idea</h1>
         <p className="text-purple-200">
-          Have a great idea for a bedtime story? Tell us about it! Every week, we pick 
-          our favorite submissions and turn them into real illustrated stories. 
-          If your idea is chosen, you'll get credit on the story page!
+          Have a great idea for a bedtime story? Tell us about it! Every week, we choose 
+          <strong className="text-yellow-300"> 2 story ideas</strong> from our community and turn them into 
+          fully illustrated bedtime stories. If your idea is chosen, you&apos;ll be credited 
+          by first name on the story page!
         </p>
       </div>
 

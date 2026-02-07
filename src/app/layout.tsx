@@ -50,6 +50,10 @@ export default function RootLayout({
             <div className="max-w-5xl mx-auto px-4 py-8 text-center text-purple-300/60 text-sm">
               <p>© 2026 Snoozy Stories. Sweet dreams! 🌟</p>
               <p className="mt-2">Free bedtime stories for toddlers and early readers.</p>
+              <div className="mt-4 flex justify-center gap-6">
+                <a href="/about" className="hover:text-white transition">About</a>
+                <a href="/privacy" className="hover:text-white transition">Privacy Policy</a>
+              </div>
             </div>
           </footer>
         </div>
