@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Nunito } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 
 const nunito = Nunito({ subsets: ['latin'] })
@@ -23,6 +24,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-6369XRC5DD"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6369XRC5DD');
+          `}
+        </Script>
+      </head>
       <body className={nunito.className}>
         <div className="min-h-screen bg-gradient-to-b from-indigo-950 via-purple-950 to-slate-900">
           <header className="border-b border-white/10">
