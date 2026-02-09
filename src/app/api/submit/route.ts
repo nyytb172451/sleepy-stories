@@ -1,6 +1,11 @@
 import { NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
+import { Redis } from '@upstash/redis'
+
+// Initialize Redis client (uses UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN env vars)
+const redis = new Redis({
+  url: process.env.UPSTASH_REDIS_REST_URL || '',
+  token: process.env.UPSTASH_REDIS_REST_TOKEN || '',
+})
 
 // Simple profanity/inappropriate content filter
 const BLOCKED_WORDS = [
@@ -9,20 +14,17 @@ const BLOCKED_WORDS = [
   'demon', 'devil', 'hell', 'damn', 'sex', 'nude', 'naked', 'drug', 'alcohol',
   'beer', 'wine', 'drunk', 'cigarette', 'smoke', 'fight', 'punch', 'hit', 'hurt',
   'abuse', 'bully', 'mean', 'cruel', 'evil', 'monster', 'zombie', 'vampire',
-  // Add more as needed
 ]
 
 function containsInappropriateContent(text: string): boolean {
   const lowerText = text.toLowerCase()
   return BLOCKED_WORDS.some(word => {
-    // Match whole words only
     const regex = new RegExp(`\\b${word}\\b`, 'i')
     return regex.test(lowerText)
   })
 }
 
 function sanitizeInput(text: string): string {
-  // Remove any HTML tags, limit length
   return text
     .replace(/<[^>]*>/g, '')
     .replace(/[<>]/g, '')
@@ -32,6 +34,12 @@ function sanitizeInput(text: string): string {
 
 export async function POST(request: Request) {
   try {
+    // Check if Redis is configured
+    if (!process.env.UPSTASH_REDIS_REST_URL || !process.env.UPSTASH_REDIS_REST_TOKEN) {
+      console.error('Redis not configured')
+      return NextResponse.json({ error: 'Submissions temporarily unavailable' }, { status: 503 })
+    }
+
     const body = await request.json()
     const { firstName, idea } = body
 
@@ -56,30 +64,11 @@ export async function POST(request: Request) {
       firstName: sanitizedName,
       idea: sanitizedIdea,
       submittedAt: new Date().toISOString(),
-      status: 'pending' // pending, approved, rejected, published
+      status: 'pending'
     }
 
-    // Store submission
-    const dataDir = path.join(process.cwd(), 'data')
-    const submissionsFile = path.join(dataDir, 'submissions.json')
-
-    // Create data directory if it doesn't exist
-    if (!fs.existsSync(dataDir)) {
-      fs.mkdirSync(dataDir, { recursive: true })
-    }
-
-    // Read existing submissions or start with empty array
-    let submissions = []
-    if (fs.existsSync(submissionsFile)) {
-      const data = fs.readFileSync(submissionsFile, 'utf-8')
-      submissions = JSON.parse(data)
-    }
-
-    // Add new submission
-    submissions.push(submission)
-
-    // Write back to file
-    fs.writeFileSync(submissionsFile, JSON.stringify(submissions, null, 2))
+    // Store submission in Redis list
+    await redis.lpush('story_submissions', JSON.stringify(submission))
 
     return NextResponse.json({ success: true, id: submission.id })
   } catch (error) {
@@ -89,22 +78,31 @@ export async function POST(request: Request) {
 }
 
 export async function GET() {
-  // Simple endpoint to check submissions (could be protected in production)
   try {
-    const submissionsFile = path.join(process.cwd(), 'data', 'submissions.json')
-    
-    if (!fs.existsSync(submissionsFile)) {
-      return NextResponse.json({ submissions: [] })
+    // Check if Redis is configured
+    if (!process.env.UPSTASH_REDIS_REST_URL || !process.env.UPSTASH_REDIS_REST_TOKEN) {
+      return NextResponse.json({ submissions: [], total: 0 })
     }
 
-    const data = fs.readFileSync(submissionsFile, 'utf-8')
-    const submissions = JSON.parse(data)
+    // Get all submissions from Redis list
+    const rawSubmissions = await redis.lrange('story_submissions', 0, -1)
+    
+    const submissions = rawSubmissions.map((s: string | object) => {
+      if (typeof s === 'string') {
+        return JSON.parse(s)
+      }
+      return s
+    })
+
+    // Filter for pending only
+    const pending = submissions.filter((s: { status: string }) => s.status === 'pending')
     
     return NextResponse.json({ 
-      submissions: submissions.filter((s: any) => s.status === 'pending'),
+      submissions: pending,
       total: submissions.length 
     })
   } catch (error) {
+    console.error('Get submissions error:', error)
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
   }
 }
