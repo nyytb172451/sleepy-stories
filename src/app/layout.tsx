@@ -49,13 +49,13 @@ export default function RootLayout({
               <div className="flex gap-4 sm:gap-6 text-purple-200 text-sm sm:text-base">
                 <a href="/stories" className="hover:text-white transition">A-Z</a>
                 <a href="/browse" className="hover:text-white transition">Browse</a>
+                <a href="/blog" className="hover:text-white transition">Blog</a>
                 <a href="/submit" className="hover:text-white transition flex items-center gap-1">
                   <span>💡</span>
-                  <span className="hidden sm:inline">Submit Idea</span>
+                  <span className="hidden sm:inline">Submit</span>
                 </a>
                 <a href="/search" className="hover:text-white transition flex items-center gap-1">
                   <span>🔍</span>
-                  <span className="hidden sm:inline">Search</span>
                 </a>
               </div>
             </nav>
