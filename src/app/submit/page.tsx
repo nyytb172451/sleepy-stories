@@ -3,23 +3,43 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
+// GA4 event helper
+const trackEvent = (eventName: string, params?: Record<string, string | number>) => {
+  if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+    window.gtag('event', eventName, params)
+  }
+}
+
+// Extend Window interface for gtag
+declare global {
+  interface Window {
+    gtag: (command: string, action: string, params?: Record<string, string | number>) => void
+  }
+}
+
 export default function SubmitPage() {
   const [firstName, setFirstName] = useState('')
   const [idea, setIdea] = useState('')
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
+  const [hasStartedTyping, setHasStartedTyping] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError('')
 
+    // Track submission attempt
+    trackEvent('story_submit_attempt', { idea_length: idea.length })
+
     if (!firstName.trim() || !idea.trim()) {
       setError('Please fill in both fields.')
+      trackEvent('story_submit_error', { error_type: 'missing_fields' })
       return
     }
 
     if (idea.length > 300) {
       setError('Story idea must be 300 characters or less.')
+      trackEvent('story_submit_error', { error_type: 'too_long' })
       return
     }
 
@@ -32,11 +52,24 @@ export default function SubmitPage() {
 
       if (response.ok) {
         setSubmitted(true)
+        trackEvent('story_submit_success', { idea_length: idea.length })
       } else {
-        setError('Something went wrong. Please try again.')
+        const data = await response.json()
+        setError(data.error || 'Something went wrong. Please try again.')
+        trackEvent('story_submit_error', { error_type: 'api_error' })
       }
     } catch {
       setError('Something went wrong. Please try again.')
+      trackEvent('story_submit_error', { error_type: 'network_error' })
+    }
+  }
+
+  // Track when user starts typing (only once)
+  const handleIdeaChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setIdea(e.target.value)
+    if (!hasStartedTyping && e.target.value.length > 0) {
+      setHasStartedTyping(true)
+      trackEvent('story_form_started')
     }
   }
 
@@ -115,7 +148,7 @@ export default function SubmitPage() {
           <textarea
             id="idea"
             value={idea}
-            onChange={(e) => setIdea(e.target.value)}
+            onChange={handleIdeaChange}
             placeholder="e.g., A little owl who is afraid of the dark learns that nighttime is actually magical..."
             maxLength={300}
             rows={4}
