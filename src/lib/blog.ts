@@ -44,13 +44,13 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong><a href="/stories/the-blanket-fort-kingdom">The Blanket Fort Kingdom</a></strong> — Two siblings build a cozy fort and imagine it's a castle. Celebrates home and togetherness.</p>
 
-<p><strong><a href="/stories/luna">Luna and the Listening Moon</a></strong> — A bunny whispers her worries to the moon, who listens quietly. Perfect for children who need help processing their day.</p>
+<p><strong><a href="/stories/luna-finds-her-blanket">Luna Finds Her Blanket</a></strong> — A bunny searches for her special blanket before bed. Perfect for children who need their comfort object to sleep.</p>
 
 <p><strong><a href="/stories/soft-things">Soft Things</a></strong> — A gentle story about all the soft, cozy things that make bedtime special.</p>
 
 <h3>For Bigger Kids (Ages 5-7)</h3>
 
-<p><strong><a href="/stories/pip">Pip's Midnight Garden</a></strong> — A mouse discovers a secret garden that only blooms at night. Gentle wonder and quiet adventure.</p>
+<p><strong><a href="/stories/pip-and-the-night-train">Pip and the Night Train</a></strong> — A mouse discovers a magical train that travels through dreams. Gentle wonder and quiet adventure.</p>
 
 <p><strong><a href="/stories/the-dream-library">The Dream Library</a></strong> — A child discovers a magical library where all the books are dreams waiting to be read.</p>
 
@@ -128,9 +128,9 @@ export const blogPosts: BlogPost[] = [
 <p>A gentle exploration of all the soft, cozy things in a child's world. Repetitive structure, cozy imagery, ends with everyone tucked in tight.</p>
 <p><strong>Best for:</strong> Kids who love texture, need help settling down</p>
 
-<h3>🐰 <a href="/stories/luna">Luna and the Listening Moon</a></h3>
-<p>Luna the bunny can't sleep because she has too many thoughts. She whispers them to the moon, who listens quietly until Luna feels light and ready for dreams.</p>
-<p><strong>Best for:</strong> Anxious toddlers, kids who need to "empty their heads" before sleep</p>
+<h3>🐰 <a href="/stories/luna-finds-her-blanket">Luna Finds Her Blanket</a></h3>
+<p>Luna the bunny can't sleep without her special blanket. Follow her cozy search until she finds it and settles in for dreams.</p>
+<p><strong>Best for:</strong> Kids who need their comfort object, transitional object attachment</p>
 
 <h3>🏰 <a href="/stories/the-blanket-fort-kingdom">The Blanket Fort Kingdom</a></h3>
 <p>Two siblings build a blanket fort and pretend it's a cozy kingdom where everyone is warm and safe. Celebrates home and imagination.</p>
@@ -202,8 +202,8 @@ export const blogPosts: BlogPost[] = [
 
 <h3>🐰 Bunny Stories</h3>
 
-<p><strong><a href="/stories/luna">Luna and the Listening Moon</a></strong><br/>
-Luna can't sleep with so many thoughts bouncing in her head. She whispers them to the moon until she feels light enough to drift off.</p>
+<p><strong><a href="/stories/luna-finds-her-blanket">Luna Finds Her Blanket</a></strong><br/>
+Luna can't sleep without her special blanket. Follow her cozy search through the house until she finds it and settles in.</p>
 
 <p><strong><a href="/stories/bop-the-bunny-says-goodnight">Bop the Bunny Says Goodnight</a></strong><br/>
 A playful bunny says goodnight to everything in sight before finally settling down to sleep.</p>
@@ -213,8 +213,8 @@ A playful bunny says goodnight to everything in sight before finally settling do
 <p><strong><a href="/stories/soft-things">Soft Things</a></strong><br/>
 A gentle story about all the soft, cozy things that make bedtime special — perfect for tactile little ones.</p>
 
-<p><strong><a href="/stories/pip">Pip's Midnight Garden</a></strong><br/>
-A curious mouse discovers a secret garden that only blooms under moonlight. Gentle wonder and quiet adventure.</p>
+<p><strong><a href="/stories/pip-and-the-night-train">Pip and the Night Train</a></strong><br/>
+A curious mouse discovers a magical train that carries passengers through dreamland. Gentle wonder and quiet adventure.</p>
 
 <h3>🦉 Owl Stories</h3>
 
