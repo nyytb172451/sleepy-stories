@@ -1,10 +1,10 @@
 import { NextResponse } from 'next/server'
 import { Redis } from '@upstash/redis'
 
-// Initialize Redis client (uses UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN env vars)
+// Initialize Redis client (uses Vercel KV env vars)
 const redis = new Redis({
-  url: process.env.UPSTASH_REDIS_REST_URL || '',
-  token: process.env.UPSTASH_REDIS_REST_TOKEN || '',
+  url: process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL || '',
+  token: process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN || '',
 })
 
 // Simple profanity/inappropriate content filter
@@ -34,8 +34,10 @@ function sanitizeInput(text: string): string {
 
 export async function POST(request: Request) {
   try {
-    // Check if Redis is configured
-    if (!process.env.UPSTASH_REDIS_REST_URL || !process.env.UPSTASH_REDIS_REST_TOKEN) {
+    // Check if Redis is configured (supports both Vercel KV and direct Upstash)
+    const redisUrl = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL
+    const redisToken = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN
+    if (!redisUrl || !redisToken) {
       console.error('Redis not configured')
       return NextResponse.json({ error: 'Submissions temporarily unavailable' }, { status: 503 })
     }
@@ -80,7 +82,9 @@ export async function POST(request: Request) {
 export async function GET() {
   try {
     // Check if Redis is configured
-    if (!process.env.UPSTASH_REDIS_REST_URL || !process.env.UPSTASH_REDIS_REST_TOKEN) {
+    const redisUrl = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL
+    const redisToken = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN
+    if (!redisUrl || !redisToken) {
       return NextResponse.json({ submissions: [], total: 0 })
     }
 
