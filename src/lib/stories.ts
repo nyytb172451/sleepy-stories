@@ -1220,7 +1220,31 @@ Sweet dreams, passenger. Same train, same time, tomorrow night.
 
 THE END` }
     ],
-  }]
+  {
+    slug: 'moonlit-garden-dreams',
+    title: 'Moonlit Garden Dreams',
+    description: 'In a quiet garden under the moonlight, all the flowers yawn. A little bunny named Benny hops around, feeling cozy.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🌈',
+    themes: ['Bedtime', 'Nature', 'Dreams'],
+    tags: ['bedtime', 'nature', 'garden', 'bunny', 'dreams'],
+    characters: ['Benny'],
+    keywords: ['moonlit garden dreams', 'early-readers bedtime story'],
+    coverImage: '/illustrations/moonlit-garden-dreams/moonlit-garden-dreams-cover.png',
+    pages: [
+      { text: `In a quiet garden, under the silver moonlight, all the flowers begin to yawn. The daisies stretch their petals wide, while the tulips gently nod their heads. The soft breeze whispers through the leaves, singing a lullaby just for them.`, illustration: '/illustrations/moonlit-garden-dreams/moonlit-garden-dreams-cover.png' },
+      { text: `A little bunny named Benny hops through the garden, his fur soft and warm. He sniffs the sweet scent of night-blooming jasmine. "Oh, how cozy this feels!" he sighs. Benny finds a comfy spot on a bed of moss, feeling the gentle earth beneath him. ` },
+      { text: `Above, the stars twinkle like tiny diamonds in the sky. Benny looks up, his big eyes sparkling with wonder. The moon smiles down, casting a gentle glow over the sleepy flowers. "Goodnight, lovely garden," he whispers, feeling the warm glow of sleep wrapping around him like a soft blanket.` },
+      { text: `As the night deepens, the garden hums a peaceful tune. The crickets chirp softly, and the owls hoot a gentle song. Benny closes his eyes, imagining the dreams waiting for him—a world of soft clouds and whispering winds. `, illustration: '/illustrations/moonlit-garden-dreams/moonlit-garden-dreams-scene.png' },
+      { text: `The flowers lean in closer, creating a cozy circle around Benny. They, too, begin to drift off into their dreams, filled with giggles and the sweet scent of dew-kissed morning. In this magical garden, everything is quiet and calm, ready to embrace a night full of gentle dreams. Benny takes one last deep breath, feeling safe and snug. With a soft sigh, he sinks into a peaceful slumber, surrounded by the warmth of the moonlight and the soft whispers of nature. ` },
+      { text: `And so, the garden sleeps, wrapped in a blanket of stars, as Benny dreams under the shining moon. Sweet dreams, little bunny. Sweet dreams, lovely garden.`, illustration: '/illustrations/moonlit-garden-dreams/moonlit-garden-dreams-ending.png' },
+    ],
+  },
+  ]
 
 // Get all unique tags
 export function getAllTags(): string[] {
