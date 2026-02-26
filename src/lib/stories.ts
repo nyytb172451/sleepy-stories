@@ -1335,12 +1335,12 @@ THE END` }
     coverImage: '/illustrations/walnuts-the-sneaky-raccoon/walnuts-the-sneaky-raccoon-cover.png',
     ideaCredit: 'Finley',
     pages: [
-      { text: `One sunny afternoon, Finley played outside with his bright, rainbow-colored shoe. The colors sparkled in the sunlight, and Finley giggled as he squished playdoh between his fingers.`, illustration: '/illustrations/walnuts-the-sneaky-raccoon/walnuts-the-sneaky-raccoon-cover.png' },
-      { text: `But later, when the sun began to set, he realized his shoe was left outside, covered in colorful playdoh. "Oh no!" he exclaimed.` },
+      { text: `One sunny afternoon, Finley played outside with her bright, rainbow-colored shoe. The colors sparkled in the sunlight, and Finley giggled as she squished playdoh between her fingers.`, illustration: '/illustrations/walnuts-the-sneaky-raccoon/walnuts-the-sneaky-raccoon-cover.png' },
+      { text: `But later, when the sun began to set, she realized her shoe was left outside, covered in colorful playdoh. "Oh no!" she exclaimed.` },
       { text: `Just then, a curious raccoon named Walnuts appeared. He had big, sparkling eyes and a fluffy tail. With a quick little scamper, he snatched up Finley's shoe and ran away!`, illustration: '/illustrations/walnuts-the-sneaky-raccoon/walnuts-the-sneaky-raccoon-scene.png' },
-      { text: `Finley tried everything to get his shoe back: crunchy snacks, a cozy blanket, even a big sign that said "I want my shoe back!" But clever Walnuts just danced away with his colorful treasure.` },
-      { text: `As twilight painted the sky with stars, Finley sat down on the grass, feeling tired but not sad. He laughed about the funny raccoon prancing around town with his rainbow shoe.` },
-      { text: `Finally, he lay back on the soft grass, letting the cool evening breeze wrap around him like a warm hug. "Goodnight, Walnuts," Finley whispered with a sleepy smile, as gentle dreams of rainbows and raccoons filled his mind.`, illustration: '/illustrations/walnuts-the-sneaky-raccoon/walnuts-the-sneaky-raccoon-ending.png' },
+      { text: `Finley tried everything to get her shoe back: crunchy snacks, a cozy blanket, even a big sign that said "I want my shoe back!" But clever Walnuts just danced away with his colorful treasure.` },
+      { text: `As twilight painted the sky with stars, Finley sat down on the grass, feeling tired but not sad. She laughed about the funny raccoon prancing around town with her rainbow shoe.` },
+      { text: `Finally, she lay back on the soft grass, letting the cool evening breeze wrap around her like a warm hug. "Goodnight, Walnuts," Finley whispered with a sleepy smile, as gentle dreams of rainbows and raccoons filled her mind.`, illustration: '/illustrations/walnuts-the-sneaky-raccoon/walnuts-the-sneaky-raccoon-ending.png' },
     ],
   },
   {
