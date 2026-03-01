@@ -1440,6 +1440,29 @@ THE END` }
       { text: `Snuggling into his blanket, he closed his eyes, knowing that the dark was just a magical part of his world. And as he drifted off to sleep, he dreamed of fireflies, moonlit ponds, and adventures yet to come.`, illustration: '/illustrations/ollie-the-brave-owl/ollie-the-brave-owl-ending.png' },
     ],
   },
+    {
+    slug: 'counting-stars',
+    title: 'Counting Stars',
+    description: 'In a cozy bedroom, Benny the bunny loved to count stars before bed. As the sun set and the sky turned blue, he looked out the window and began, "One, two, three.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🌈',
+    themes: ['Bedtime', 'Bedtime Routine'],
+    tags: ['counting', 'bedtime', 'bunny', 'stars', 'routine'],
+    characters: ['Benny'],
+    keywords: ['counting stars', 'early-readers bedtime story'],
+    coverImage: '/illustrations/counting-stars/counting-stars-cover.png',
+    pages: [
+      { text: `Once upon a time, in a cozy little bedroom, there lived a sweet bunny named Benny. As the sun began to set, Benny knew it was time to get ready for bed. He hopped out of his warm, fluffy bed and looked out the window. The sky was turning a soft, sleepy blue. Benny loved counting the stars. "One, two, three..." he whispered softly as he spotted the first star twinkling in the night sky.`, illustration: '/illustrations/counting-stars/counting-stars-cover.png' },
+      { text: `As he counted, Benny felt warm and cozy. Each star made him feel a little more sleepy. "Four, five, six," he continued, his eyes getting heavier with each number. He could smell the soft lavender from his bedtime pillow, and it made him feel safe and calm.` },
+      { text: `Benny decided to have a little fun while counting. He imagined the stars were little friends, each one glowing just for him. "Seven, eight, nine! Look at how bright you shine!" he giggled, feeling happy.`, illustration: '/illustrations/counting-stars/counting-stars-scene.png' },
+      { text: `After counting to ten, Benny took a deep breath and let it out slowly. The room was quiet, with only the soft sounds of night outside. He snuggled back under his soft, warm blanket. Benny whispered, "Goodnight, stars. Goodnight, moon. Goodnight, sleepy room."` },
+      { text: `Feeling cozy and safe, Benny closed his eyes. He thought about all the wonderful dreams waiting for him. With one last glance at the sparkling stars, he drifted off to sleep, counting his dreams one by one. And in his heart, he knew that the stars would be there, shining bright till morning light.`, illustration: '/illustrations/counting-stars/counting-stars-ending.png' },
+    ],
+  },
   ]
 
 // Get all unique tags
