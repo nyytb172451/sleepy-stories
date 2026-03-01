@@ -1414,6 +1414,32 @@ THE END` }
       { text: `Feeling sleepy, Tilly returned to her cozy meadow. She nestled into her warm spot and whispered to the moon, "Thank you for the wonderful night." With a happy sigh, Tilly drifted off to peaceful dreams.`, illustration: '/illustrations/turtles-moonlit-journey/turtles-moonlit-journey-ending.png' },
     ],
   },
+    {
+    slug: 'ollie-the-brave-owl',
+    title: 'Ollie the Brave Owl',
+    description: 'Once upon a time, there was a little owl named Ollie who was scared of the dark. Every night, he hid in his nest, clutching his soft blanket.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🦉',
+    themes: ['Bedtime', 'Friendship', 'Magic'],
+    tags: ['owl', 'bedtime', 'courage', 'friendship', 'magic'],
+    characters: ['Ollie', 'Maybe'],
+    keywords: ['ollie the brave owl', 'early-readers bedtime story'],
+    coverImage: '/illustrations/ollie-the-brave-owl/ollie-the-brave-owl-cover.png',
+    ideaCredit: 'Gregory',
+    pages: [
+      { text: `Once upon a time, in a cozy little forest, there lived a small owl named Ollie. Ollie was the fluffiest, cutest little owl you could ever meet. He had soft, warm feathers that glimmered like stars in the twilight. But Ollie had a big secret: he was afraid of the dark.`, illustration: '/illustrations/ollie-the-brave-owl/ollie-the-brave-owl-cover.png' },
+      { text: `Every night, when the sun dipped below the horizon, Ollie would hide in his cozy nest, clutching his tiny blanket. "What if the dark is scary?" he would think. But one night, a gentle breeze whispered through the trees, reminding him that magic awaited outside.` },
+      { text: `Gathering his courage, Ollie peeked out from his nest. The moon shone brightly, lighting up the world with a silver glow. To his surprise, he saw fireflies dancing in the air, twinkling like tiny stars. He noticed the soft rustle of leaves and the gentle croak of frogs echoing the nighttime song.` },
+      { text: `Ollie took a deep breath and fluffed up his feathers. "Maybe the night isn’t so scary after all," he thought. He ventured out, his heart beating like a little drum. As he flew through the trees, he spotted Gregory, a friendly young fox. Gregory smiled and waved his fluffy tail. "Come play, Ollie! The night is magical!"`, illustration: '/illustrations/ollie-the-brave-owl/ollie-the-brave-owl-scene.png' },
+      { text: `Together, they glided through the forest. They found a shimmering pond that sparkled under the moonlight. Ollie dipped his tiny claws in the cool water, and it felt soft and refreshing. They laughed and played until they were both tired.` },
+      { text: `As the stars twinkled above, Ollie felt a warm glow of happiness inside. He realized the night was filled with wonders—soft sounds, glowing lights, and gentle friends. With a sleepy yawn, Ollie returned to his nest, feeling cozy and brave.` },
+      { text: `Snuggling into his blanket, he closed his eyes, knowing that the dark was just a magical part of his world. And as he drifted off to sleep, he dreamed of fireflies, moonlit ponds, and adventures yet to come.`, illustration: '/illustrations/ollie-the-brave-owl/ollie-the-brave-owl-ending.png' },
+    ],
+  },
   ]
 
 // Get all unique tags
