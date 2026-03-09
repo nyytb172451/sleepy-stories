@@ -1769,6 +1769,58 @@ The night wrapped around him like a warm hug, and the moon smiled down, watching
       { text: `And so, in their little home beneath the old oak tree, the cozy fox family fell asleep, safe and sound under the watchful stars.`, illustration: '/illustrations/the-cozy-fox-family/the-cozy-fox-family-ending.png' },
     ],
   },
+    {
+    slug: 'bunnys-cozy-night',
+    title: 'Bunny\'s Cozy Night',
+    description: 'In a soft, green meadow, Bella Bunny loved to play with her brother, Benny. After a fun day of chasing butterflies, it was time for bed.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🐰',
+    themes: ['Family', 'Comfort', 'Bedtime'],
+    tags: ['family', 'comfort', 'bunny', 'bedtime', 'love'],
+    characters: ['Bella', 'Bunny'],
+    keywords: ['bunnys cozy night', 'early-readers bedtime story'],
+    coverImage: '/illustrations/bunnys-cozy-night/bunnys-cozy-night-cover.png',
+    pages: [
+      { text: `Once upon a time, in a soft, green meadow, there lived a fluffy bunny named Bella. Bella loved to play with her family. Every morning, she would hop around with her little brother, Benny. Together, they chased butterflies and nibbled on sweet clovers. But as the sun began to set, Bella and Benny knew it was time to get cozy.  `, illustration: '/illustrations/bunnys-cozy-night/bunnys-cozy-night-cover.png' },
+      { text: `One evening, after a long day of play, Bella felt a gentle breeze and heard the soft chirping of crickets. It was time for their bedtime routine. Bella's mommy called, 'Bunny hugs, everyone!' The bunnies snuggled close, feeling warm and safe.  ` },
+      { text: `Bella’s mommy tucked them into their soft, fluffy beds made of fresh hay. The scent was sweet, like the flowers in spring. She whispered, 'Close your eyes, my little ones. Dream of moonlit meadows and gentle stars.'  ` },
+      { text: `Benny smiled and said, 'I love you, Bella.' Bella smiled back, 'I love you too, Benny!' They both felt the warmth of their mommy's love wrapping around them like a soft blanket.  `, illustration: '/illustrations/bunnys-cozy-night/bunnys-cozy-night-scene.png' },
+      { text: `As they lay in their cozy beds, Bella imagined the adventures they would have tomorrow. She could see the stars twinkling outside their little burrow, each one a promise of another fun day.  ` },
+      { text: `With a yawn, Bella snuggled deeper into her bed. She felt the warmth of her brother beside her and the love of her family all around. Soon, her eyes began to close, and she drifted off to sleep, dreaming of sweet adventures.  ` },
+      { text: `The meadow was quiet, the moonlight danced softly on the grass, and Bella Bunny was fast asleep, surrounded by the love of her family.  
+
+Goodnight, little bunnies. Sweet dreams await.  
+`, illustration: '/illustrations/bunnys-cozy-night/bunnys-cozy-night-ending.png' },
+    ],
+  },
+    {
+    slug: 'the-owls-night-journey',
+    title: 'The Owl\'s Night Journey',
+    description: 'Ollie the little owl was ready for a magical nighttime adventure. Under the twinkling stars and the bright moon, he flew into Dreamland.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🦉',
+    themes: ['Bedtime', 'Adventure'],
+    tags: ['bedtime', 'owl', 'dreamland', 'adventure', 'nighttime'],
+    characters: ['Ollie'],
+    keywords: ['the owls night journey', 'early-readers bedtime story'],
+    coverImage: '/illustrations/the-owls-night-journey/the-owls-night-journey-cover.png',
+    pages: [
+      { text: `Once upon a time, in a gentle forest, a little owl named Ollie was ready for a magical nighttime adventure. As the sun dipped below the trees, Ollie fluffed his soft feathers and took a deep breath of the cool night air. The sky turned dark blue, and twinkling stars began to peek out like tiny diamonds. With a joyful hoot, Ollie spread his wings and soared into the night.`, illustration: '/illustrations/the-owls-night-journey/the-owls-night-journey-cover.png' },
+      { text: `The moon, round and bright, smiled down at Ollie. “Hello, little owl! Would you like to visit the Dreamland tonight?” Ollie nodded eagerly. The moonlight wrapped around him like a warm blanket, guiding him to a land filled with fluffy clouds and sparkling stars.` },
+      { text: `In Dreamland, Ollie found soft, glowing flowers that whispered sweet songs. He floated gently on clouds that felt like cotton candy, and he danced with the stars, who twinkled and giggled as they played. The air smelled like sweet vanilla and soft lavender, making Ollie feel cozy and safe.` },
+      { text: `Ollie saw a big, fluffy cloud that looked just like a cozy bed. He floated down and lay on the cloud, feeling the warmth embrace him. As he closed his eyes, the stars gathered around him, creating a twinkling lullaby just for him.`, illustration: '/illustrations/the-owls-night-journey/the-owls-night-journey-scene.png' },
+      { text: `Soon, Ollie felt his eyes growing heavy. The soft sounds of dream songs surrounded him, and he snuggled deeper into the fluffy cloud, feeling warm and peaceful. “Thank you, Moon and Stars,” Ollie whispered as he yawned. “Goodnight!” ` },
+      { text: `With that, Ollie drifted off to sleep, dreaming of adventures in the night sky, ready for more magical journeys whenever he awoke. The moon kept watch, a glowing guardian of sweet dreams, as the little owl slept soundly under the twinkling stars.`, illustration: '/illustrations/the-owls-night-journey/the-owls-night-journey-ending.png' },
+    ],
+  },
   ]
 
 // Get all unique tags
