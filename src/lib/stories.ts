@@ -1874,6 +1874,61 @@ Goodnight, little bunnies. Sweet dreams await.
 Goodnight, precious one. Sweet dreams await you too!`, illustration: '/illustrations/dreamy-cloud-surfing/dreamy-cloud-surfing-ending.png' },
     ],
   },
+    {
+    slug: 'milo-and-the-moonlight',
+    title: 'Milo and the Moonlight',
+    description: 'In a cozy town, there lived a gentle panda named Milo. He loved playing all day, but at night, he felt scared of the dark.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🐼',
+    themes: ['Bedtime', 'Dreams'],
+    tags: ['bedtime', 'fears', 'panda', 'moonlight', 'dreams'],
+    characters: ['Milo', 'Just', 'When'],
+    keywords: ['milo and the moonlight', 'early-readers bedtime story'],
+    coverImage: '/illustrations/milo-and-the-moonlight/milo-and-the-moonlight-cover.png',
+    pages: [
+      { text: `Once upon a time, in a cozy little town, there lived a gentle panda named Milo. Milo loved to play during the day, but when the sun went down, he felt scared. The dark made him nervous, and shadows danced on his walls. `, illustration: '/illustrations/milo-and-the-moonlight/milo-and-the-moonlight-cover.png' },
+      { text: `One night, as Milo snuggled in his soft, warm blanket, he whispered to himself, 'What can I do? The dark is so big and scary.' Just then, a soft glow filled his room. It was Moonbeam, a friendly moonlight fairy! ` },
+      { text: `'Hello, Milo!' she said with a twinkle in her eye. 'The dark is not as scary as you think! Let me show you.' 
+
+With a wave of her sparkly wand, Moonbeam made the shadows change shape. They turned into bouncy bunnies and fluffy clouds. Milo giggled as they hopped and floated around the room. ` },
+      { text: `'Wow! Look at my shadow buddies!' he exclaimed. The bunnies played and made Milo feel warm inside. 
+
+'When the sun goes down, the world sleeps, and we dream,' said Moonbeam softly. 'The dark is a cozy blanket for dreams to come.' `, illustration: '/illustrations/milo-and-the-moonlight/milo-and-the-moonlight-scene.png' },
+      { text: `Milo felt the softness of his blanket and heard the gentle whispers of night. He took a deep breath, and all his worries melted away. Moonbeam sprinkled a little moon dust on him, making him feel safe and loved. 
+
+'Close your eyes, Milo,' she said with a smile. 'Tomorrow will bring more sunshine and fun!' ` },
+      { text: `Milo yawned a big panda yawn, feeling sleepy. The moonlight danced around him, and he felt cozy and warm. With a heart full of happiness, he closed his eyes and drifted off to dreamland, knowing that the dark was just a cozy place for his dreams to play. The end.`, illustration: '/illustrations/milo-and-the-moonlight/milo-and-the-moonlight-ending.png' },
+    ],
+  },
+    {
+    slug: 'ollie-the-night-owl',
+    title: 'Ollie the Night Owl',
+    description: 'In a cozy forest, Ollie the owl longed for a nighttime adventure. One soft evening, he spread his fluffy wings and flew into the starry sky.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🦉',
+    themes: ['Adventure', 'Dreams', 'Bedtime'],
+    tags: ['nighttime', 'adventure', 'owl', 'dreams', 'bedtime'],
+    characters: ['Ollie', 'After'],
+    keywords: ['ollie the night owl', 'early-readers bedtime story'],
+    coverImage: '/illustrations/ollie-the-night-owl/ollie-the-night-owl-cover.png',
+    pages: [
+      { text: `Once upon a time, in a soft, cozy forest, lived a little owl named Ollie. Ollie had big, round eyes that sparkled like twinkling stars. Every night, when the moon rose high in the sky, Ollie would look out from his tree and wonder, "What magic happens at night?" `, illustration: '/illustrations/ollie-the-night-owl/ollie-the-night-owl-cover.png' },
+      { text: `One calm evening, as the wind whispered lullabies, Ollie spread his fluffy wings and soared into the starry night. The air was cool and gentle, wrapping around him like a soft blanket. He glided above the treetops, where the leaves danced softly in the moonlight.` },
+      { text: `As Ollie flew, he spotted a glowing moonbeam that sparkled like a silver path. Curious, he followed it, feeling warm and happy inside. The moonbeam led him to a shimmering meadow filled with colorful flowers that glowed gently in the dark. Ollie landed softly, taking in the sweet, floral scent.` },
+      { text: `In the meadow, he found a group of friendly fireflies dancing in the air. “Join us, Ollie!” they chimed, their tiny lights flickering like stars. Ollie twirled and played, feeling light as a feather. The night was filled with soft giggles and warm laughter, wrapping Ollie in a cozy hug.`, illustration: '/illustrations/ollie-the-night-owl/ollie-the-night-owl-scene.png' },
+      { text: `After their joyful dance, the fireflies showed Ollie the secret of the night: a hidden pond where the stars reflected like diamond smiles. Ollie gazed at the beautiful sight, feeling the peace of the night all around him. ` },
+      { text: `As the moon began to yawn and the first light of dawn peeked over the trees, Ollie knew it was time to return home. With a happy heart, he flew back to his tree, feeling warm and sleepy.` },
+      { text: `Snuggling into his soft nest, Ollie closed his eyes, dreaming of his magical adventure with fireflies and sparkling stars. The gentle night wrapped around him, and soon, he was fast asleep, dreaming of twinkling magic under the moonlight.`, illustration: '/illustrations/ollie-the-night-owl/ollie-the-night-owl-ending.png' },
+    ],
+  },
   ]
 
 // Get all unique tags
