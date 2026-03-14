@@ -1977,6 +1977,61 @@ With a wave of her sparkly wand, Moonbeam made the shadows change shape. They tu
       { text: `As she snuggled deeper into the moss, she thought of all the fun she would have tomorrow, playing with her friends again. But now, it was time for rest. Tilly whispered, "Goodnight, lovely pond. Goodnight, sweet friends." And just like that, Tilly the tired turtle drifted off to sleep, surrounded by the warmth of the night and the love of her cozy little home.`, illustration: '/illustrations/tilly-the-tired-turtle/tilly-the-tired-turtle-ending.png' },
     ],
   },
+    {
+    slug: 'milo-and-the-shadow-buddy',
+    title: 'Milo and the Shadow Buddy',
+    description: 'Milo was a little boy who loved to laugh and play but was scared of bedtime. One night, he saw his shadow on the wall wiggle and dance! It turned into a friendly Shadow Buddy.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🌈',
+    themes: ['Bedtime', 'Friendship'],
+    tags: ['bedtime', 'overcoming fears', 'friendship', 'cozy', 'children's story'],
+    characters: ['Milo', 'When'],
+    keywords: ['milo and the shadow buddy', 'early-readers bedtime story'],
+    coverImage: '/illustrations/milo-and-the-shadow-buddy/milo-and-the-shadow-buddy-cover.png',
+    pages: [
+      { text: `Once upon a time, in a cozy little town, there lived a boy named Milo. Milo loved to play and laugh all day long but was a bit scared of bedtime. When the sun went down, the room grew dark, and shadows danced on the walls. Milo would peek under his bed, worried about what might be hiding there.`, illustration: '/illustrations/milo-and-the-shadow-buddy/milo-and-the-shadow-buddy-cover.png' },
+      { text: `One night, as he snuggled into his soft blanket, he noticed something special. His shadow on the wall was a wiggly, giggly friend! It stretched and shrank, waving back at him. ‘Hello, Milo!’ it whispered. ‘I’m your Shadow Buddy, and I’m here to keep you company!’` },
+      { text: `Milo blinked in surprise. ‘You’re not scary?’ he asked, feeling warm and cozy in his pajama castle. ‘Not at all!’ said the Shadow Buddy, twirling around in the moonlight that peeked through the window. ‘I love to play games in the dark, like hide and seek!’` },
+      { text: `Milo giggled. ‘What games can we play?’ he asked, his heart starting to feel light. The Shadow Buddy danced along the walls, showing Milo how to play with shapes. They made funny bunny shapes, tall tree shapes, even a swooping bird! Milo realized that the dark was not so scary with his new friend.`, illustration: '/illustrations/milo-and-the-shadow-buddy/milo-and-the-shadow-buddy-scene.png' },
+      { text: `As the night grew quiet, Milo felt sleepy. The warm blanket hugged him tight, and he closed his eyes, imagining all the fun he’d have with his Shadow Buddy tomorrow. ‘Goodnight, Milo!’ whispered the shadow. ‘I’ll be here, waiting for our next adventure!’ With a soft smile, Milo drifted off to sleep, dreaming of giggles and shadows, cozy in the knowledge that his friend would always be near. ` },
+      { text: `And so, in the gentle darkness, Milo learned that the night could be warm and wonderful, filled with friends and dreams. 🌈` },
+    ],
+  },
+    {
+    slug: 'sloths-snuggly-night',
+    title: 'Sloth\'s Snuggly Night',
+    description: 'In a cozy tree, Sammy the Sloth snuggled with his family. Every night, they told stories under the twinkling stars.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🦥',
+    themes: ['Family', 'Comfort', 'Bedtime'],
+    tags: ['family', 'comfort', 'bedtime', 'love', 'sloth'],
+    characters: ['Sammy', 'Sloth'],
+    keywords: ['sloths snuggly night', 'early-readers bedtime story'],
+    coverImage: '/illustrations/sloths-snuggly-night/sloths-snuggly-night-cover.png',
+    pages: [
+      { text: `In a warm, cozy tree high above the ground, lived Sammy the Sloth. Sammy loved his family very much. Every night, as the stars twinkled above, Sammy's mom and dad would snuggle close to him. They would tell him stories about their day. Sammy's favorite story was about the time they found a sparkling stream where the water danced like tiny fairies.  
+ 
+The soft leaves of the tree swayed gently, making a rustling sound that was like a lullaby. Sammy felt safe and warm in his family's embrace. His sister, Sally, who was just as snuggly, would giggle and say, “Remember that time we had a race to the top of the tree? You were so slow, Sammy!” 
+ 
+“Slow is my special superpower!” Sammy laughed back, feeling happy. The family shared many cozy giggles as the night wrapped around them like a warm blanket.  
+ 
+As the moon glowed softly, Sammy's dad whispered, “Let’s close our eyes and think happy thoughts.” Sammy thought of all the fun they had together—playing, eating yummy leaves, and listening to the gentle sounds of the jungle at night.  
+ 
+With every breath, he felt his body grow heavier, like a soft cloud drifting in the sky. He snuggled deeper into his family's arms, feeling their love like a warm hug. Sammy's eyelids grew heavy, and he thought about tomorrow, when he would play with Sally and explore even more.  
+ 
+With a gentle sigh, Sammy whispered, “Goodnight, family. I love you.” “Goodnight, Sammy,” they replied softly. And soon, Sammy the Sloth was fast asleep, dreaming of fun adventures under the starry sky, surrounded by love and comfort.  
+ 
+The gentle leaves continued to sway, and the night was peaceful and quiet, just like Sammy's dreams.`, illustration: '/illustrations/sloths-snuggly-night/sloths-snuggly-night-cover.png' },
+    ],
+  },
   ]
 
 // Get all unique tags
