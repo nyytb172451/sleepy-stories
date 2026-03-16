@@ -2083,6 +2083,62 @@ And so, Luna slept peacefully, waiting for the next night's adventure in her dre
       { text: `With a sigh, Luna nestled amongst the clouds, her eyes growing heavier and heavier. As she hugged the last twinkling star, she whispered, “Thank you for this magical night.” And with that, Luna closed her eyes, drifting off into a peaceful sleep, dreaming of her next adventure among the stars, surrounded by the gentle night sky.`, illustration: '/illustrations/lunas-starry-night/lunas-starry-night-ending.png' },
     ],
   },
+    {
+    slug: 'counting-cozy-kittens',
+    title: 'Counting Cozy Kittens',
+    description: 'In a warm room, a kitten named Whiskers loved to count before bedtime. He counted his soft, fluffy blankets, the twinkling stars outside, and the gentle shadows on the wall.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🐱',
+    themes: ['Bedtime', 'Bedtime Routine'],
+    tags: ['counting', 'bedtime', 'kittens', 'routine', 'soothing'],
+    characters: ['Whiskers', 'They'],
+    keywords: ['counting cozy kittens', 'early-readers bedtime story'],
+    coverImage: '/illustrations/counting-cozy-kittens/counting-cozy-kittens-cover.png',
+    pages: [
+      { text: `In a soft, warm room where the night gently glowed, lived a little kitten named Whiskers. Whiskers loved to count everything! As the stars twinkled outside, Whiskers decided it was time to count his cozy things before bedtime. `, illustration: '/illustrations/counting-cozy-kittens/counting-cozy-kittens-cover.png' },
+      { text: `"One, two, three..." he began, counting his soft, fluffy blankets piled on his little bed. The blankets felt like clouds, warm and inviting. 
+
+"Four, five, six..." he continued, counting the twinkling stars he could see through the window. Each star seemed to wink back at him. ` },
+      { text: `"Seven, eight, nine..." Whiskers counted the gentle shadows dancing on the wall. They looked like friendly friends, playing hide and seek. 
+
+Finally, he counted the soft pillows on his bed. "Ten!" he exclaimed with a purr, snuggling into them. The pillows were comfy and smelled like his favorite cozy corner. `, illustration: '/illustrations/counting-cozy-kittens/counting-cozy-kittens-scene.png' },
+      { text: `As Whiskers closed his eyes, he listened to the quiet sounds of the night. The distant hoot of an owl, the soft rustle of leaves, and the gentle whisper of the wind. 
+
+He took a deep breath, feeling the warmth of his warm blankets wrap around him like a hug. With each count, he felt sleepier and sleepier. ` },
+      { text: `"Goodnight, cozy things!" he whispered, feeling thankful for his soft bed, the twinkling stars, and his warm home. With a final yawn, Whiskers drifted off into a peaceful dream, counting kittens in a cozy, starry world. 
+
+And in that dreamy place, everything was soft, warm, and oh-so-cozy, just like Whiskers liked it. Goodnight, little kitten, goodnight.`, illustration: '/illustrations/counting-cozy-kittens/counting-cozy-kittens-ending.png' },
+    ],
+  },
+    {
+    slug: 'cozy-train-adventure',
+    title: 'Cozy Train Adventure',
+    description: 'In a gentle village, a little train named Tilly took Benny the bear and his sister Luna on a cozy evening adventure. Wrapped in warm blankets, they listened to their mom\'s stories as Tilly chugged along the tracks.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🚂',
+    themes: ['Family', 'Comfort', 'Bedtime'],
+    tags: ['family', 'comfort', 'bedtime', 'train', 'siblings'],
+    characters: ['Tilly', 'Benny', 'When'],
+    keywords: ['cozy train adventure', 'early-readers bedtime story'],
+    coverImage: '/illustrations/cozy-train-adventure/cozy-train-adventure-cover.png',
+    pages: [
+      { text: `Once upon a time, in a gentle village, there was a little train named Tilly. Tilly was small, bright, and oh so cozy. Every evening, when the sun began to set, Tilly would puff along the tracks, inviting families for a ride. One day, she invited a little bear named Benny and his sister Luna. They climbed aboard with their warm blankets and cuddly toys.`, illustration: '/illustrations/cozy-train-adventure/cozy-train-adventure-cover.png' },
+      { text: `As Tilly chugged along, the sky turned from orange to purple. The trees swayed softly, and the stars began to twinkle. Benny and Luna nestled in their blankets, feeling safe and warm. Their mother sat beside them, telling stories of brave trains and magical lands.` },
+      { text: `Benny loved listening while Luna pointed out the shiny stars. "Look, there's a shooting star!" she exclaimed, her eyes wide with wonder. Tilly chugged along, making gentle sounds like a lullaby, "Choo-choo, chugga-chugga."` },
+      { text: `After a while, Tilly stopped by a cozy field where fireflies danced in the night. The children laughed and waved at the tiny lights, feeling the soft grass beneath their toes. They took deep breaths of the cool, fresh air, feeling relaxed and happy.`, illustration: '/illustrations/cozy-train-adventure/cozy-train-adventure-scene.png' },
+      { text: `As Tilly began to head back home, she played a soft song with her whistle, making Benny and Luna feel like they were floating on clouds. They snuggled closer to their mom, feeling the warmth of family around them. The train ride felt like a big, warm hug.` },
+      { text: `When they arrived back at the station, the moon was shining brightly. Benny and Luna jumped off the train, still wrapped in their blankets. They hugged Tilly goodbye, whispering, "Thank you, Tilly!"` },
+      { text: `With sleepy eyes, they returned home, where their cozy beds awaited them. As they snuggled under their soft blankets, their hearts were filled with love and dreams. And soon, they closed their eyes, drifting off to sleep, feeling safe and warm, just like on Tilly's train. Choo-choo! 🚂`, illustration: '/illustrations/cozy-train-adventure/cozy-train-adventure-ending.png' },
+    ],
+  },
   ]
 
 // Get all unique tags
