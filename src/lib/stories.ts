@@ -1988,7 +1988,7 @@ With a wave of her sparkly wand, Moonbeam made the shadows change shape. They tu
     readingMinutes: 5,
     emoji: '🌈',
     themes: ['Bedtime', 'Friendship'],
-    tags: ['bedtime', 'overcoming fears', 'friendship', 'cozy', 'children's story'],
+    tags: ['bedtime', 'overcoming fears', 'friendship', 'cozy', "children's story"],
     characters: ['Milo', 'When'],
     keywords: ['milo and the shadow buddy', 'early-readers bedtime story'],
     coverImage: '/illustrations/milo-and-the-shadow-buddy/milo-and-the-shadow-buddy-cover.png',
