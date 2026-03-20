@@ -2293,6 +2293,64 @@ Goodnight, Benny! Goodnight, stars! Goodnight, cozy dreams!`, illustration: '/il
       { text: `With a final yawn and a stretch, Whiskers closed his bright green eyes and let the dreams carry him away. Sweet dreams, dear Whiskers. It was time to sleep, and tomorrow promised more adventures in the cozy little cottage by the forest.`, illustration: '/illustrations/snuggly-kittens-dream/snuggly-kittens-dream-ending.png' },
     ],
   },
+    {
+    slug: 'lilas-rainbow-wish',
+    title: 'Lila\'s Rainbow Wish',
+    description: 'In a cozy village, Lila the kind rabbit saw a beautiful rainbow and wanted to share it with her friends. She found Benny the Bear, Sally the Squirrel, and Timmy the Toad and suggested they paint their own rainbow.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🌈',
+    themes: ['Sharing', 'Friendship', 'Bedtime'],
+    tags: ['sharing', 'friendship', 'rainbow', 'bedtime', 'gentle lessons'],
+    characters: ['Lila', 'Benny', 'Sally', 'Timmy'],
+    keywords: ['lilas rainbow wish', 'early-readers bedtime story'],
+    coverImage: '/illustrations/lilas-rainbow-wish/lilas-rainbow-wish-cover.png',
+    pages: [
+      { text: `Once upon a time, in a cozy little village, there lived a kind rabbit named Lila. Lila loved to hop through the fields, enjoying the bright flowers and soft, warm sun. One sunny day, she saw a beautiful rainbow stretching across the sky. The colors were bright and shiny, and Lila felt a gentle wish in her heart. She wanted to share this joy with her friends.`, illustration: '/illustrations/lilas-rainbow-wish/lilas-rainbow-wish-cover.png' },
+      { text: `"Oh, I wish I could share this rainbow with everyone!" Lila said, her nose twitching with excitement. 
+
+As she hopped along, Lila found her friend Benny the Bear. "Benny, look at that rainbow! Isn’t it beautiful?" she exclaimed. Benny smiled and said, "Yes, it’s lovely! But how can we share it? We can’t take it home!"` },
+      { text: `Lila thought for a moment. "Let’s paint the colors! We can make our own rainbow!" So they gathered their friends: Sally the Squirrel and Timmy the Toad. Together, they found bright paints and soft brushes.` },
+      { text: `As they painted, the friends laughed and shared stories. Each color brought them closer together, filling the air with warmth and joy. The cozy feeling wrapped around them like a soft blanket. `, illustration: '/illustrations/lilas-rainbow-wish/lilas-rainbow-wish-scene.png' },
+      { text: `When they finished, a beautiful rainbow stretched across the canvas, just like the one in the sky. Lila smiled, feeling very proud. "We made our own rainbow!" she cheered.` },
+      { text: `As the sun began to set, painting the sky in soft pinks and oranges, Lila and her friends snuggled close. They watched the real rainbow fade, the colors shimmering softly until they disappeared. ` },
+      { text: `Lila yawned, feeling the warmth of friendship around her. "This was the best day ever!" she whispered softly. With cozy hearts and quiet smiles, they all drifted off to sleep, dreaming of rainbows and love.  
+
+And so, under a blanket of stars, Lila and her friends slept soundly, knowing that sharing joy makes everything brighter. 🌈`, illustration: '/illustrations/lilas-rainbow-wish/lilas-rainbow-wish-ending.png' },
+    ],
+  },
+    {
+    slug: 'lunas-starry-adventure',
+    title: 'Luna\'s Starry Adventure',
+    description: 'In a peaceful meadow, a little lamb named Luna wished to visit the stars. One night, a soft breeze told her to dream.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🐑',
+    themes: ['Bedtime'],
+    tags: ['bedtime', 'lamb', 'star adventure', 'dream journey', 'cozy'],
+    characters: ['Luna'],
+    keywords: ['lunas starry adventure', 'early-readers bedtime story'],
+    coverImage: '/illustrations/lunas-starry-adventure/lunas-starry-adventure-cover.png',
+    pages: [
+      { text: `In a quiet meadow, under a soft, glowing moon, lived a little lamb named Luna. Every night, she watched the stars twinkle above, wishing she could visit them. One magical evening, as Luna gazed up, a gentle breeze whispered, "Close your eyes and dream!"  
+  
+Luna closed her big, soft eyes and felt herself lifted high into the sky. She floated on a fluffy cloud, warm and cozy, like a soft blanket wrapping around her. As she drifted, she could hear the stars giggling and sparkling all around her. "Come play with us!" they chimed.  
+  
+Luna landed softly on a star, which felt like the fluffiest cotton candy. The star bounced and twinkled, taking Luna on a fun ride around the night sky. Below, she could see the sleepy world, with glowing windows and tiny shadows moving. Everything felt so peaceful.  
+  
+After dancing with the stars, Luna spotted the moon, shining bright and round. She hopped on a moonbeam, which felt cool and refreshing against her woolly coat. The moon smiled down at her, bathing Luna in a warm, gentle light. "Thank you for visiting, dear Luna," the moon said. "Now it's time to rest."  
+  
+With a yawn that echoed softly through the sky, Luna floated back down to her meadow. The cool grass tickled her little hooves as she landed, feeling happy and sleepy. As she snuggled into her warm bed of soft hay, she whispered, "Goodnight, stars! Goodnight, moon!"  
+  
+Luna closed her eyes, dreaming of twinkling stars and fluffy clouds, ready for sweet dreams until morning light.`, illustration: '/illustrations/lunas-starry-adventure/lunas-starry-adventure-cover.png' },
+    ],
+  },
   ]
 
 // Get all unique tags
