@@ -2351,6 +2351,60 @@ With a yawn that echoed softly through the sky, Luna floated back down to her me
 Luna closed her eyes, dreaming of twinkling stars and fluffy clouds, ready for sweet dreams until morning light.`, illustration: '/illustrations/lunas-starry-adventure/lunas-starry-adventure-cover.png' },
     ],
   },
+    {
+    slug: 'cozy-castle',
+    title: 'The Cozy Castle',
+    description: 'In a warm and cozy castle, little Prince Leo played with his colorful toys. One day, his friend, Princess Mia, knocked on the door and asked to play.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🏰',
+    themes: ['Sharing', 'Friendship', 'Bedtime'],
+    tags: ['sharing', 'friendship', 'cozy', 'gentle lessons', 'bedtime stories'],
+    characters: ['Leo'],
+    keywords: ['cozy castle', 'early-readers bedtime story'],
+    coverImage: '/illustrations/cozy-castle/cozy-castle-cover.png',
+    pages: [
+      { text: `Once upon a time, in a soft and warm castle, lived a little prince named Leo. His castle was filled with gentle breezes and the sweet smell of blooming flowers. Every day, Leo loved to play with his toys — bright, colorful blocks, fluffy stuffed animals, and shiny toy knights. `, illustration: '/illustrations/cozy-castle/cozy-castle-cover.png' },
+      { text: `One sunny afternoon, while playing in his cozy room, Leo heard a soft knock on the door. It was his friend, Mia, the kind princess from the next castle over. "Can I play with you?" she asked with a smile. ` },
+      { text: `Leo looked at his toys. He loved them so much! But he remembered the gentle lesson he learned from his mother: sharing is caring. So, he took a deep breath and smiled back at Mia. "Of course! Let’s build a castle together!" ` },
+      { text: `As they stacked the colorful blocks high, they giggled and cheered. The castle grew bigger and bigger, and soon it was tall enough to touch the fluffy clouds that floated by the window. Leo felt warm and happy inside. `, illustration: '/illustrations/cozy-castle/cozy-castle-scene.png' },
+      { text: `They decorated their castle with soft blankets and fluffy pillows, making it the coziest place ever. As the sun began to set, casting a golden glow around the room, Leo realized how much fun it was to share his toys with his friend. ` },
+      { text: `Mia yawned and stretched, her eyes growing heavy. "Thank you for sharing your toys with me, Leo," she said softly. Leo smiled back, feeling proud and brave for making his friend so happy. ` },
+      { text: `As night fell, the castle became quiet. Leo snuggled into his soft bed, feeling warm and cozy. He closed his eyes, dreaming of his lovely castle filled with laughter, and drifted off to sleep, ready for more adventures tomorrow. 
+
+Goodnight, dear Leo. Sweet dreams await you in your cozy castle. 🏰`, illustration: '/illustrations/cozy-castle/cozy-castle-ending.png' },
+    ],
+  },
+    {
+    slug: 'the-sharing-train',
+    title: 'The Sharing Train',
+    description: 'In a sunny town, there was a bright red train named Tilly. Tilly loved sharing adventures with her friends.',
+    ageGroup: 'early-readers',
+    ageLabel: 'Ages 5-7',
+    ageRange: [5, 7],
+    readingTime: '5 min',
+    readingMinutes: 5,
+    emoji: '🚂',
+    themes: ['Sharing', 'Friendship', 'Bedtime'],
+    tags: ['sharing', 'friendship', 'gentle lessons', 'bedtime story', 'cozy'],
+    characters: ['Tilly', 'There', 'Benny', 'Lucy'],
+    keywords: ['the sharing train', 'early-readers bedtime story'],
+    coverImage: '/illustrations/the-sharing-train/the-sharing-train-cover.png',
+    pages: [
+      { text: `Once upon a time, in a sunny little town, there was a bright red train named Tilly. Tilly loved to travel and share her adventures with her friends. One day, Tilly decided to invite her friends for a special ride through the fluffy, green hills. As Tilly puffed along the track, she saw her friends waiting at the station. There was Benny the Bear, Lucy the Bunny, and Carla the Cat.`, illustration: '/illustrations/the-sharing-train/the-sharing-train-cover.png' },
+      { text: `'All aboard!' Tilly called out with a cheerful toot. The friends hopped on, their hearts filled with joy. As they traveled, Tilly had a big basket filled with yummy snacks. 'I have some cookies and juice!' she said.` },
+      { text: `But Benny was feeling shy. He looked at the snacks and said softly, 'I don’t want to take any. I’m not hungry.' Tilly smiled and said gently, 'But sharing is what makes it special, Benny! You can have a cookie, and we can all enjoy together!'` },
+      { text: `Benny thought for a moment. Then he reached out and took a cookie. 'Okay, I will try!' he said with a grin. All the friends shared the snacks and giggled together, feeling warm and happy.`, illustration: '/illustrations/the-sharing-train/the-sharing-train-scene.png' },
+      { text: `As they chugged along, Tilly reminded them, 'It’s nice to share, and it makes our hearts feel cozy!' The friends played games, sang songs, and watched fluffy clouds drift by. ` },
+      { text: `After a wonderful day filled with laughter, Tilly finally brought her friends back home. As the sun began to set, painting the sky in soft oranges and pinks, Tilly said, 'Thank you for a lovely day, my friends!'` },
+      { text: `As they waved goodbye, Tilly felt a warm glow in her heart. She knew that sharing brought them closer. Tired and happy, Tilly settled in her cozy train station, closed her eyes, and drifted off to sleep, dreaming of more adventures to share tomorrow. 
+
+Goodnight, sweet Tilly. Sweet dreams! `, illustration: '/illustrations/the-sharing-train/the-sharing-train-ending.png' },
+    ],
+  },
   ]
 
 // Get all unique tags
